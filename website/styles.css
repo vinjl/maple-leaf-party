@@ -3175,3 +3175,538 @@ body.nav-open {
   color: var(--maple);
   font-weight: 500;
 }
+
+/* —— Open Gov: map layout + diagrams —— */
+.open-shell-map {
+  max-width: 90rem;
+}
+
+.map-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  align-items: start;
+}
+
+.map-layout.has-panel {
+  grid-template-columns: 1fr min(22rem, 100%);
+  gap: 1rem;
+}
+
+@media (max-width: 900px) {
+  .map-layout.has-panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+.map-stage {
+  min-width: 0;
+}
+
+.map-head {
+  max-width: 36rem;
+}
+
+/* State org diagram */
+.gov-map {
+  background: rgba(255, 252, 248, 0.55);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.25rem 1rem 1.5rem;
+  overflow-x: auto;
+}
+
+.gov-map-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.gov-trunk {
+  width: 2px;
+  height: 1.25rem;
+  background: linear-gradient(180deg, var(--maple-mid), var(--line));
+  margin: 0.15rem 0 0.5rem;
+}
+
+.gov-map-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem 1rem;
+  align-items: flex-start;
+}
+
+.gov-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 7.5rem;
+  max-width: 11rem;
+  flex: 1 1 8.5rem;
+}
+
+.gov-stem {
+  width: 2px;
+  height: 0.65rem;
+  background: var(--line);
+}
+
+.gov-children {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+  padding-top: 0.35rem;
+  border-top: 2px solid var(--line);
+  margin-top: 0.15rem;
+}
+
+.gov-node {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  width: 100%;
+  text-align: left;
+  font-family: var(--font-ui);
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper-2);
+  color: var(--maple-deep);
+  padding: 0.55rem 0.65rem;
+  cursor: pointer;
+  transition: border-color 0.15s var(--ease), box-shadow 0.15s var(--ease),
+    background 0.15s var(--ease);
+}
+
+.gov-node:hover,
+.gov-node:focus-visible {
+  border-color: var(--maple-mid);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(201, 162, 39, 0.25);
+}
+
+.gov-node.is-selected {
+  border-color: var(--maple-deep);
+  background: linear-gradient(
+    165deg,
+    rgba(255, 252, 248, 1) 0%,
+    rgba(246, 232, 214, 0.55) 100%
+  );
+  box-shadow: 0 0 0 2px rgba(74, 33, 24, 0.12);
+}
+
+.gov-node-root {
+  align-items: center;
+  text-align: center;
+  max-width: 16rem;
+  padding: 0.75rem 1.1rem;
+  border-color: var(--maple-mid);
+}
+
+.gov-node-branch {
+  font-weight: 600;
+}
+
+.gov-node-leaf {
+  font-size: 0.88rem;
+}
+
+.gov-node-kicker {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+}
+
+.gov-node-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
+
+.gov-node-leaf .gov-node-name {
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.gov-node-meta {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--maple-mid);
+}
+
+.gov-badge {
+  position: absolute;
+  /* simple inline badge */
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--maple-deep);
+  background: rgba(201, 162, 39, 0.35);
+  border-radius: 999px;
+  padding: 0.1rem 0.4rem;
+}
+
+.gov-map-hint {
+  margin-top: 1.1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+/* Treasury flow diagram */
+.treasury-map {
+  background: rgba(255, 252, 248, 0.55);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.35rem 1.1rem 1.5rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.tf-in,
+.tf-hub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tf-box {
+  border: 1.5px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper-2);
+  padding: 0.85rem 1.15rem;
+  text-align: center;
+  font-family: var(--font-ui);
+  min-width: min(100%, 16rem);
+  cursor: pointer;
+  transition: border-color 0.15s var(--ease), box-shadow 0.15s var(--ease);
+}
+
+.tf-box:hover,
+.tf-box:focus-visible,
+.tf-box.is-selected {
+  border-color: var(--maple-deep);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(201, 162, 39, 0.28);
+}
+
+.tf-box-hub {
+  background: linear-gradient(
+    165deg,
+    rgba(74, 33, 24, 0.94) 0%,
+    rgba(107, 50, 36, 0.92) 100%
+  );
+  color: #fffcf8;
+  border-color: rgba(201, 162, 39, 0.45);
+  min-width: min(100%, 18rem);
+  padding: 1.1rem 1.25rem;
+}
+
+.tf-box-hub .tf-kicker {
+  color: var(--gold-bright);
+}
+
+.tf-box-hub .tf-sub {
+  color: rgba(255, 252, 248, 0.65);
+}
+
+.tf-kicker {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: 0.25rem;
+}
+
+.tf-box strong {
+  display: block;
+  font-size: 1.05rem;
+}
+
+.tf-total {
+  display: block;
+  font-family: var(--font-title);
+  font-size: 1.65rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 0.35rem 0 0.15rem;
+  color: var(--gold-bright);
+}
+
+.tf-sub {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+
+.tf-arrow-down {
+  width: 2px;
+  height: 1.35rem;
+  background: linear-gradient(180deg, var(--maple-mid), var(--maple-leaf));
+  margin: 0.2rem 0;
+  position: relative;
+}
+
+.tf-arrow-down::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--maple-leaf);
+}
+
+.tf-out-label {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin: 0.85rem 0 0.55rem;
+  text-align: center;
+}
+
+.tf-bands {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.tf-band {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: rgba(255, 252, 248, 0.85);
+  padding: 0.5rem 0.65rem;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: var(--font-ui);
+  transition: border-color 0.15s var(--ease);
+}
+
+.tf-band:hover,
+.tf-band:focus-visible,
+.tf-band.is-selected {
+  border-color: var(--maple-deep);
+  outline: none;
+}
+
+.tf-band-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(184, 100, 61, 0.22),
+    rgba(201, 162, 39, 0.18)
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tf-band-label {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  font-size: 0.88rem;
+}
+
+.tf-band-label strong {
+  color: var(--maple-deep);
+}
+
+.tf-band-label span {
+  color: var(--maple-mid);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+/* Side drawer */
+.open-drawer {
+  position: sticky;
+  top: 4.5rem;
+  background: rgba(255, 252, 248, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  min-height: 12rem;
+  max-height: calc(100dvh - 6rem);
+  overflow: auto;
+  padding: 1.1rem 1.15rem 1.35rem;
+}
+
+@media (max-width: 900px) {
+  .open-drawer {
+    position: relative;
+    top: 0;
+    max-height: none;
+    order: 2;
+  }
+  .map-stage {
+    order: 1;
+  }
+}
+
+.open-drawer-empty {
+  color: var(--ink-soft);
+}
+
+.open-drawer-empty h2 {
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  color: var(--maple-deep);
+  margin: 0.35rem 0 0.5rem;
+}
+
+.open-drawer-body {
+  position: relative;
+}
+
+.open-drawer-close {
+  position: absolute;
+  top: -0.25rem;
+  right: -0.15rem;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--maple-mid);
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+
+.open-drawer-body h2 {
+  font-family: var(--font-title);
+  font-size: 1.35rem;
+  color: var(--maple-deep);
+  margin: 0.2rem 0 0.55rem;
+  padding-right: 1.5rem;
+}
+
+.drawer-block {
+  margin-top: 1.1rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
+.drawer-block h3 {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: 0.5rem;
+}
+
+.drawer-lines {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.drawer-lines li {
+  padding: 0.45rem 0;
+  border-bottom: 1px solid rgba(107, 50, 36, 0.1);
+  font-size: 0.88rem;
+}
+
+.drawer-line-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.drawer-line-top strong {
+  color: var(--maple-deep);
+  white-space: nowrap;
+}
+
+.drawer-traces {
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.linkish {
+  border: none;
+  background: none;
+  color: var(--maple);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  margin-right: 0.35rem;
+}
+
+/* Trace horizontal-ish diagram in panel */
+.trace-flow {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+
+.trace-flow-step {
+  display: grid;
+  grid-template-columns: 1.75rem 1fr;
+  gap: 0.55rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.88rem;
+  position: relative;
+}
+
+.trace-flow-num {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--maple-deep);
+  color: #fffcf8;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.trace-flow-step strong {
+  display: block;
+  color: var(--maple-deep);
+  font-size: 0.85rem;
+}
+
+.trace-flow-step p {
+  margin: 0.15rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .gov-map-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .gov-branch {
+    max-width: none;
+    flex: 1 1 auto;
+  }
+}
