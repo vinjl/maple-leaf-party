@@ -3145,6 +3145,27 @@ body.nav-open {
   border: 0;
 }
 
+/* Take-part steps on landing */
+.take-part-steps {
+  list-style: decimal;
+  padding-left: 1.35rem;
+  max-width: 40rem;
+  margin: 1rem 0 0;
+}
+
+.take-part-steps li {
+  margin: 0.85rem 0;
+  padding-left: 0.35rem;
+  line-height: 1.55;
+}
+
+.take-part-steps code {
+  font-size: 0.88em;
+  background: rgba(74, 33, 24, 0.06);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
+
 /* Landing decision blocks */
 .home-decision {
   padding: 1.15rem 0;

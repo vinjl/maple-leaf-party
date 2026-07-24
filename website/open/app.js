@@ -382,6 +382,13 @@
           <header class="open-page-head map-head">
             <h1>${title}</h1>
             <p class="open-lead">${lead}</p>
+            <p class="open-note">
+              Want to change something?
+              <a href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">Open a GitHub issue</a>
+              or read
+              <a href="https://github.com/vinjl/maple-leaf-party/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">how to contribute</a>.
+              Proposals that clear logic and math can move into the plan.
+            </p>
           </header>
           ${
             mode === "map"
