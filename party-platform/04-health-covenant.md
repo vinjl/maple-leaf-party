@@ -21,6 +21,20 @@ Canada runs a politically sacred healthcare brand that in practice delivers:
 - Eligibility and usage patterns that are not strictly **citizen-first**  
 - Weak incentives against preventable self-harm that socializes costs onto workers and capital
 
+### Preventable disease is a huge share of the bill
+
+All-government health spending sits on a **~$300–400B** scale in recent Canadian public data **[VERIFY CIHI year]**.  
+A large fraction of illness and cost is **preventable** (diet quality, alcohol, smoking/nicotine, inactivity, metabolic neglect).  
+
+Directional planning band used in Maple projections (`19-national-projections.md`):
+
+| Band | Meaning |
+|------|---------|
+| **15–25%+** of system load | Attributable to preventable lifestyle disease (order-of-magnitude, not a finished actuarial table) |
+| **Tens of billions $/year** | Fiscal room if that load falls (plus second-order disability and productivity gains) |
+
+**Moral failure of the status quo:** people who keep effort (train, eat real food, stay off the heavy bottle and smoke) are taxed to fund the optional wreckage of those who will not try. That punishes health and rewards freeloading.
+
 Arithmetic: you cannot be **Switzerland on taxes** and **all-you-can-eat free medicine for everyone and everything** forever.
 
 ---
@@ -29,11 +43,12 @@ Arithmetic: you cannot be **Switzerland on taxes** and **all-you-can-eat free me
 
 1. **Citizens first** — public system is for Canadians, not the world.  
 2. **Insure bad luck, not unlimited lifestyle freeloading.**  
-3. **Serious care is protected** — cancer, trauma, heart attack, necessary surgery must get capacity, not wait behind trivial demand.  
-4. **Minor care is not free** — price signals + HSAs + private options.  
-5. **Health Covenant** — free catastrophic coverage is earned by baseline health maintenance (with medical exceptions).  
-6. **Emergency stabilization** for citizens always — no dying in the street.  
-7. **Fund tax cuts** — health redesign is a primary budget enabler of the Swiss-NA model.
+3. **Reward health effort** — covenant pass = free catastrophic pool; refuse preventable harm = self-pay non-emergency (insurance / private / cash).  
+4. **Serious care is protected** — cancer, trauma, heart attack, necessary surgery get capacity, not wait behind trivial demand.  
+5. **Minor care is not free** — price signals + HSAs + private options.  
+6. **Health Covenant** — free catastrophic coverage is earned by baseline health maintenance (with medical exceptions).  
+7. **Emergency stabilization** always for citizens under the system — no dying in the street for a lifestyle fail.  
+8. **Fund tax cuts** — lighter preventable load returns room to citizens so private cover and out-of-pocket care are realistic.
 
 ---
 
