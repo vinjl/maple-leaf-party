@@ -143,19 +143,33 @@
 
     const cSel = selectedId === "constitution" ? " is-selected" : "";
 
+    // Order branches for a readable map: legislative, executive (largest), judicial, open-state, federalism, swf
+    const order = ["legislative", "executive", "judicial", "open-state", "federalism", "swf"];
+    const ordered = [
+      ...order.map((id) => branches.find((b) => b.id === id)).filter(Boolean),
+      ...branches.filter((b) => !order.includes(b.id)),
+    ];
+
     return `
       <div class="gov-map" role="tree" aria-label="Map of government">
+        <div class="gov-map-legend" aria-hidden="true">
+          <span><i class="leg leg-branch"></i> Branch</span>
+          <span><i class="leg leg-leaf"></i> Ministry / chamber</span>
+          <span><i class="leg leg-badge"></i> Decision Package</span>
+        </div>
         <div class="gov-map-top">
           <button type="button" class="gov-node gov-node-root${cSel}" data-org="constitution" aria-pressed="${selectedId === "constitution"}">
-            <span class="gov-node-kicker">Supreme</span>
+            <span class="gov-node-kicker">Supreme priority</span>
             <span class="gov-node-name">${esc(constitution?.name || "Constitution")}</span>
+            <span class="gov-node-meta">Citizens first · logic</span>
           </button>
           <div class="gov-trunk" aria-hidden="true"></div>
+          <div class="gov-rail" aria-hidden="true"></div>
         </div>
         <div class="gov-map-row">
-          ${branches.map(branchBlock).join("")}
+          ${ordered.map(branchBlock).join("")}
         </div>
-        <p class="gov-map-hint">Click a box for mandate, sample budget, and decisions. Gold badges = Decision Packages.</p>
+        <p class="gov-map-hint">Click any box — detail opens beside the map (mandate, sample $, decisions). Badges = Decision Packages.</p>
       </div>
     `;
   }
@@ -181,13 +195,31 @@
     const flows = ministryOutflows();
     const sum = flows.reduce((s, f) => s + f.total, 0) || 1;
     const totalLabel = rollup ? money(rollup.total_out) : money(sum);
+    const inflows = rollup?.inflows || [
+      { label: "Taxes & revenues", amount: rollup?.total_out || sum },
+    ];
+    const inSum = inflows.reduce((s, x) => s + x.amount, 0) || 1;
+
+    const inBands = inflows
+      .map((f) => {
+        const pct = Math.max(8, Math.round((f.amount / inSum) * 100));
+        return `
+        <div class="tf-band tf-band-in" style="--w:${pct}">
+          <span class="tf-band-fill tf-band-fill-in" style="width:${pct}%"></span>
+          <span class="tf-band-label">
+            <strong>${esc(f.label)}</strong>
+            <span>${money(f.amount)}</span>
+          </span>
+        </div>`;
+      })
+      .join("");
 
     const bands = flows
       .map((f) => {
-        const pct = Math.max(3, Math.round((f.total / sum) * 100));
+        const pct = Math.max(4, Math.round((f.total / sum) * 100));
         const sel = focusOrgId === f.org_id ? " is-selected" : "";
         return `
-        <button type="button" class="tf-band${sel}" data-org="${esc(f.org_id)}" style="--w:${pct}" title="${esc(f.name)} ${money(f.total)}">
+        <button type="button" class="tf-band${sel}" data-org="${esc(f.org_id)}" title="${esc(f.name)} ${money(f.total)}">
           <span class="tf-band-fill" style="width:${pct}%"></span>
           <span class="tf-band-label">
             <strong>${esc(f.name)}</strong>
@@ -199,31 +231,26 @@
 
     return `
       <div class="treasury-map" aria-label="Public Treasury money flow">
-        <div class="tf-in">
-          <div class="tf-box tf-box-in">
-            <span class="tf-kicker">In</span>
-            <strong>Taxes &amp; revenues</strong>
-            <span class="tf-sub">Aggregate public · demo</span>
-          </div>
-          <div class="tf-arrow-down" aria-hidden="true"></div>
-        </div>
+        <div class="tf-out-label">In — public revenues <span class="open-demo-tag">demo $</span></div>
+        <div class="tf-bands tf-bands-in">${inBands}</div>
+        <div class="tf-arrow-down tf-arrow-center" aria-hidden="true"></div>
 
         <div class="tf-hub">
-          <button type="button" class="tf-box tf-box-hub${focusOrgId === "open-state" || !focusOrgId ? " is-selected" : ""}" data-org="open-state">
+          <button type="button" class="tf-box tf-box-hub${
+            focusOrgId === "open-state" || !focusOrgId ? " is-selected" : ""
+          }" data-org="open-state">
             <span class="tf-kicker">Public Treasury</span>
-            <strong>Ledger hub</strong>
+            <strong>One ledger hub</strong>
             <span class="tf-total">${totalLabel}</span>
-            <span class="tf-sub">illustrative total outflow</span>
+            <span class="tf-sub">illustrative · every dollar Trace-ready</span>
           </button>
-          <div class="tf-arrow-down" aria-hidden="true"></div>
         </div>
+        <div class="tf-arrow-down tf-arrow-center" aria-hidden="true"></div>
 
         <div class="tf-out-label">Out — by ministry <span class="open-demo-tag">demo $</span></div>
-        <div class="tf-bands" role="list">
-          ${bands}
-        </div>
+        <div class="tf-bands" role="list">${bands}</div>
 
-        <p class="gov-map-hint">Bar width = share of ministry sample budgets. Click a bar for line items and Trace paths.</p>
+        <p class="gov-map-hint">Bar width = share of the pot. Click a ministry for program lines and Trace paths (how a dollar moves).</p>
       </div>
     `;
   }
@@ -531,6 +558,15 @@
         }
       });
     });
+    // Scroll selected node into view on load
+    const sel = $(".gov-node.is-selected, .tf-band.is-selected, .tf-box-hub.is-selected");
+    if (sel && sel.scrollIntoView) {
+      try {
+        sel.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      } catch (_) {
+        /* ignore */
+      }
+    }
 
     const search = $("#openSearch");
     if (search) {
@@ -564,15 +600,17 @@
       });
     });
 
-    document.addEventListener(
-      "keydown",
-      (e) => {
-        if (e.key === "Escape" && state.selectedId) {
-          go(mode === "treasury" ? "#/treasury" : "#/map");
-        }
-      },
-      { once: true }
-    );
+  }
+
+  // Single escape handler for drawer
+  if (!window.__mlpOpenEsc) {
+    window.__mlpOpenEsc = true;
+    document.addEventListener("keydown", (e) => {
+      if (e.key !== "Escape") return;
+      const route = parseRoute();
+      if (route.name === "map" && route.id) go("#/map");
+      if (route.name === "treasury" && route.id) go("#/treasury");
+    });
   }
 
   function render() {

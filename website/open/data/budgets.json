@@ -1,117 +1,280 @@
 {
   "meta": {
-    "note": "Illustrative demo amounts only — not live federal estimates. Labelled for the Open Government prototype."
+    "note": "Illustrative demo amounts only \u2014 not live federal estimates. Labelled for the Open Government prototype."
   },
   "budgets": [
     {
       "id": "bud-treasury",
       "org_id": "open-state",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Public Treasury rollup (sample)",
       "total_out": 420000000000,
       "lines": [
-        { "label": "Transfers to persons (anonymized aggregate)", "amount": 120000000000, "trace_ids": ["T-DEMO-001"] },
-        { "label": "Health transfers & federal health programs", "amount": 52000000000, "trace_ids": ["T-DEMO-010"] },
-        { "label": "Defence & national service", "amount": 38000000000, "trace_ids": ["T-DEMO-020"] },
-        { "label": "Debt service (sample)", "amount": 45000000000, "trace_ids": [] },
-        { "label": "Other program spend (sample residual)", "amount": 165000000000, "trace_ids": [] }
-      ]
+        {
+          "label": "Transfers to persons (anonymized aggregate)",
+          "amount": 120000000000,
+          "trace_ids": [
+            "T-DEMO-001"
+          ]
+        },
+        {
+          "label": "Health transfers & federal health programs",
+          "amount": 52000000000,
+          "trace_ids": [
+            "T-DEMO-010"
+          ]
+        },
+        {
+          "label": "Defence & national service",
+          "amount": 38000000000,
+          "trace_ids": [
+            "T-DEMO-020"
+          ]
+        },
+        {
+          "label": "Debt service (sample)",
+          "amount": 45000000000,
+          "trace_ids": []
+        },
+        {
+          "label": "Other program spend (sample residual)",
+          "amount": 165000000000,
+          "trace_ids": []
+        }
+      ],
+      "inflows": [
+        {
+          "label": "Personal income tax",
+          "amount": 238000000000
+        },
+        {
+          "label": "Corporate & other",
+          "amount": 182000000000
+        }
+      ],
+      "total_in": 420000000000
     },
     {
       "id": "bud-finance",
       "org_id": "finance",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Finance portfolio (sample)",
       "total_out": 8900000000,
       "lines": [
-        { "label": "Tax administration & ledger ops", "amount": 4200000000, "trace_ids": ["T-DEMO-030"] },
-        { "label": "Family tax system ops (post-reform)", "amount": 800000000, "trace_ids": ["T-DEMO-031"] },
-        { "label": "Fiscal policy & UDL support unit", "amount": 120000000, "trace_ids": [] },
-        { "label": "Other (sample)", "amount": 3780000000, "trace_ids": [] }
+        {
+          "label": "Tax administration & ledger ops",
+          "amount": 4200000000,
+          "trace_ids": [
+            "T-DEMO-030"
+          ]
+        },
+        {
+          "label": "Family tax system ops (post-reform)",
+          "amount": 800000000,
+          "trace_ids": [
+            "T-DEMO-031"
+          ]
+        },
+        {
+          "label": "Fiscal policy & UDL support unit",
+          "amount": 120000000,
+          "trace_ids": []
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 3780000000,
+          "trace_ids": []
+        }
       ]
     },
     {
       "id": "bud-health",
       "org_id": "health",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Health portfolio (sample)",
       "total_out": 12400000000,
       "lines": [
-        { "label": "Catastrophic citizen insurance (federal share demo)", "amount": 7800000000, "trace_ids": ["T-DEMO-010"] },
-        { "label": "Substance regulation & purity labs", "amount": 450000000, "trace_ids": ["T-DEMO-040"] },
-        { "label": "Food & ad enforcement support", "amount": 280000000, "trace_ids": ["T-DEMO-041"] },
-        { "label": "Other (sample)", "amount": 3870000000, "trace_ids": [] }
+        {
+          "label": "Catastrophic citizen insurance (federal share demo)",
+          "amount": 7800000000,
+          "trace_ids": [
+            "T-DEMO-010"
+          ]
+        },
+        {
+          "label": "Substance regulation & purity labs",
+          "amount": 450000000,
+          "trace_ids": [
+            "T-DEMO-040"
+          ]
+        },
+        {
+          "label": "Food & ad enforcement support",
+          "amount": 280000000,
+          "trace_ids": [
+            "T-DEMO-041"
+          ]
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 3870000000,
+          "trace_ids": []
+        }
       ]
     },
     {
       "id": "bud-borders",
       "org_id": "borders",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Immigration & Borders (sample)",
       "total_out": 5100000000,
       "lines": [
-        { "label": "Border security & removals", "amount": 2100000000, "trace_ids": ["T-DEMO-050"] },
-        { "label": "Skilled intake processing", "amount": 980000000, "trace_ids": [] },
-        { "label": "Other (sample)", "amount": 2020000000, "trace_ids": [] }
+        {
+          "label": "Border security & removals",
+          "amount": 2100000000,
+          "trace_ids": [
+            "T-DEMO-050"
+          ]
+        },
+        {
+          "label": "Skilled intake processing",
+          "amount": 980000000,
+          "trace_ids": []
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 2020000000,
+          "trace_ids": []
+        }
       ]
     },
     {
       "id": "bud-defence",
       "org_id": "defence",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Defence & National Service (sample)",
       "total_out": 36000000000,
       "lines": [
-        { "label": "CAF readiness (sample)", "amount": 28000000000, "trace_ids": ["T-DEMO-020"] },
-        { "label": "National Service Year (grade-10 replace)", "amount": 4200000000, "trace_ids": ["T-DEMO-021"] },
-        { "label": "Other (sample)", "amount": 3800000000, "trace_ids": [] }
+        {
+          "label": "CAF readiness (sample)",
+          "amount": 28000000000,
+          "trace_ids": [
+            "T-DEMO-020"
+          ]
+        },
+        {
+          "label": "National Service Year (grade-10 replace)",
+          "amount": 4200000000,
+          "trace_ids": [
+            "T-DEMO-021"
+          ]
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 3800000000,
+          "trace_ids": []
+        }
       ]
     },
     {
       "id": "bud-justice",
       "org_id": "justice",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Justice (sample)",
       "total_out": 2100000000,
       "lines": [
-        { "label": "Federal prosecutions & courts support (sample)", "amount": 1400000000, "trace_ids": [] },
-        { "label": "Porn ban enforcement coordination", "amount": 180000000, "trace_ids": ["T-DEMO-060"] },
-        { "label": "Other (sample)", "amount": 520000000, "trace_ids": [] }
+        {
+          "label": "Federal prosecutions & courts support (sample)",
+          "amount": 1400000000,
+          "trace_ids": []
+        },
+        {
+          "label": "Porn ban enforcement coordination",
+          "amount": 180000000,
+          "trace_ids": [
+            "T-DEMO-060"
+          ]
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 520000000,
+          "trace_ids": []
+        }
       ]
     },
     {
       "id": "bud-food",
       "org_id": "food",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Agriculture & Food (sample)",
       "total_out": 3400000000,
       "lines": [
-        { "label": "Inspection & disclosure systems", "amount": 900000000, "trace_ids": ["T-DEMO-041"] },
-        { "label": "Other (sample)", "amount": 2500000000, "trace_ids": [] }
+        {
+          "label": "Inspection & disclosure systems",
+          "amount": 900000000,
+          "trace_ids": [
+            "T-DEMO-041"
+          ]
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 2500000000,
+          "trace_ids": []
+        }
       ]
     },
     {
       "id": "bud-digital",
       "org_id": "digital",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "Digital & Open State (sample)",
       "total_out": 4800000000,
       "lines": [
-        { "label": "Maple Ledger & Trace", "amount": 900000000, "trace_ids": ["T-DEMO-070"] },
-        { "label": "Extreme Compute Grid (national node demo)", "amount": 2100000000, "trace_ids": ["T-DEMO-071"] },
-        { "label": "Citizen issues & waste bounty fund", "amount": 400000000, "trace_ids": ["T-DEMO-072"] },
-        { "label": "Other (sample)", "amount": 1400000000, "trace_ids": [] }
+        {
+          "label": "Maple Ledger & Trace",
+          "amount": 900000000,
+          "trace_ids": [
+            "T-DEMO-070"
+          ]
+        },
+        {
+          "label": "Extreme Compute Grid (national node demo)",
+          "amount": 2100000000,
+          "trace_ids": [
+            "T-DEMO-071"
+          ]
+        },
+        {
+          "label": "Citizen issues & waste bounty fund",
+          "amount": 400000000,
+          "trace_ids": [
+            "T-DEMO-072"
+          ]
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 1400000000,
+          "trace_ids": []
+        }
       ]
     },
     {
       "id": "bud-pmo",
       "org_id": "pmo",
-      "fy": "2026–27 (demo)",
+      "fy": "2026\u201327 (demo)",
       "label": "PMO (sample)",
       "total_out": 180000000,
       "lines": [
-        { "label": "Cabinet coordination & UDL gatekeeping", "amount": 120000000, "trace_ids": [] },
-        { "label": "Other (sample)", "amount": 60000000, "trace_ids": [] }
+        {
+          "label": "Cabinet coordination & UDL gatekeeping",
+          "amount": 120000000,
+          "trace_ids": []
+        },
+        {
+          "label": "Other (sample)",
+          "amount": 60000000,
+          "trace_ids": []
+        }
       ]
     }
   ]
