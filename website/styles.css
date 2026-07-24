@@ -714,10 +714,9 @@ body.nav-open {
   width: clamp(28px, 4vw, 34px);
   height: clamp(28px, 4vw, 34px);
   flex-shrink: 0;
+  display: block;
   object-fit: contain;
-  filter:
-    brightness(0) saturate(100%)
-    invert(24%) sepia(48%) saturate(1100%) hue-rotate(338deg) brightness(0.9);
+  /* logo.svg uses solid maple fill — no CSS recolor filter (filters can box-render broken SVGs) */
 }
 
 .brand-text {
@@ -2097,10 +2096,9 @@ body.nav-open {
 .footer-logo img {
   width: 40px;
   height: 40px;
+  display: block;
   object-fit: contain;
-  filter:
-    brightness(0) saturate(100%)
-    invert(24%) sepia(48%) saturate(1100%) hue-rotate(338deg) brightness(0.9);
+  /* solid fill in logo.svg — no CSS filter */
 }
 
 .footer-logo span {
