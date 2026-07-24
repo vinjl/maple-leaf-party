@@ -1,50 +1,26 @@
-# Structure — open government prototype
+# Structure — website + open government
 
-This repository is organized like a **small government design shop** that also ships a public site.
+## Dual product
 
-## Layers
+| Path | Deployed to Cloudflare? | Role |
+|------|-------------------------|------|
+| `website/` | **Yes** (only this) | Fast public site |
+| `government/` | No | Open model of Government of Canada |
+| `party-platform/` | No | Full policy / law design depth |
+| `projects/` | No | Party launch ops |
+| `legal/` | No | Charter research tracks |
 
-```
-┌─────────────────────────────────────────┐
-│  website/     Public interface (EN/FR)  │  ← Cloudflare Pages / GitHub Pages
-├─────────────────────────────────────────┤
-│  party-platform/   Policy & state OS    │  ← Source of truth for law design
-├─────────────────────────────────────────┤
-│  projects/    Launch, registration, ops │
-├─────────────────────────────────────────┤
-│  legal/       Charter & research tracks │
-└─────────────────────────────────────────┘
-```
+## Rule
 
-## Naming
+Never set Pages root to repo root. Never bulk-copy `government/` into `website/`.  
+Site summarizes; GitHub holds every detail.
 
-| Folder | Role |
-|--------|------|
-| `website/` | Static HTML/CSS/JS. **Deploy root.** |
-| `party-platform/` | Numbered policy modules (00–19). Government “source code.” |
-| `projects/party-foundation/` | How to launch and register. |
-| `legal/` | Legal pathways (Charter, research). |
-| `ideas/` `notes/` `research/` | Scratch space; not public canon. |
-| Root `README.md` | Map for humans and GitHub. |
+## Ministry → platform links
 
-## Platform numbering convention
+Each `government/executive/*/README.md` points at the numbered `party-platform/NN-*.md` files.
 
-- **00–09** — Operating system of the state (principles, open books, money, AI, federalism).  
-- **10–17** — Nation-facing pillars (contract, food, family, defence, speech, corporate).  
-- **18+** — Extensions (borders, projections, future modules).  
+## Expanding a ministry
 
-When you add a pillar: new `NN-name.md`, link from `party-platform/README.md` and the website plan.
-
-## Website routes (public)
-
-| Route | Purpose |
-|-------|---------|
-| `/` | Who we are · join |
-| `/plan/` | Full plan, law change, timeline, math |
-| `/values/` | The standard |
-| `/participate/join.html` | Join list |
-| `/fr/**` | French |
-
-## Deploy
-
-Set static host **root** = `website/`. No build step.
+1. Deepen `party-platform/` markdown.  
+2. Add ops/legislation notes under `government/executive/<ministry>/`.  
+3. Keep `website/plan/` as a short summary + link to GitHub.
