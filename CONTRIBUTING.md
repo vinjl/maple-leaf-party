@@ -14,10 +14,11 @@ You are not only a visitor. You can propose laws, fixes, and waste cuts the way 
 ## Take part in three steps
 
 1. **See how it works** on the site: [Open Government Explorer](https://www.mapleleafparty.ca/open/) (state map, Treasury flow, Decision Packages).  
-2. **Propose on GitHub**
+2. **Speak in the Public Chamber** during debate: [live demo](https://www.mapleleafparty.ca/open/#/chamber) (chat, call-in queue, AI view summary). For the people, by the people.  
+3. **Propose on GitHub**
    - [New issue](https://github.com/vinjl/maple-leaf-party/issues/new/choose) for a problem, idea, or waste report.  
    - Pull request to edit `party-platform/` or `government/` when you have a concrete change.  
-3. **Clear the logic gate** so maintainers can test your idea.
+4. **Clear the logic gate** so maintainers can test your idea.
 
 ## The logic gate
 

@@ -3795,3 +3795,117 @@ body.nav-open {
     flex: 1 1 auto;
   }
 }
+
+/* Public Chamber */
+.chamber-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .chamber-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.chamber-session {
+  margin-bottom: 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.chamber-session h2 {
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  color: var(--maple-deep);
+  margin: 0.4rem 0;
+}
+
+.chamber-live {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.chamber-chat {
+  max-height: 28rem;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 252, 248, 0.8);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.chamber-msg {
+  padding: 0.55rem 0.65rem;
+  border-radius: 6px;
+  background: var(--paper-2);
+  border: 1px solid rgba(107, 50, 36, 0.1);
+}
+
+.chamber-msg header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.65rem;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  margin-bottom: 0.25rem;
+}
+
+.chamber-msg header strong {
+  color: var(--maple-deep);
+}
+
+.chamber-channel {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--gold-deep);
+}
+
+.chamber-msg-floor {
+  border-left: 3px solid var(--maple-deep);
+}
+
+.chamber-msg-call {
+  border-left: 3px solid var(--maple-leaf);
+}
+
+.chamber-msg-system {
+  background: rgba(201, 162, 39, 0.1);
+  border-left: 3px solid var(--gold);
+}
+
+.chamber-msg p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.chamber-compose {
+  margin-top: 0.85rem;
+}
+
+.chamber-compose-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.chamber-cluster {
+  margin: 0.75rem 0;
+}
+
+.chamber-side .open-panel {
+  max-width: none;
+}

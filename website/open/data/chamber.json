@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Public Chamber",
+    "slogan": "For the people, by the people.",
+    "disclaimer": "Demo chamber. Live chat and call-in are simulated in this prototype. Under Maple rules, real sessions would stream with identity-verified citizens."
+  },
+  "session": {
+    "id": "sess-demo-family-tax",
+    "status": "live",
+    "title": "Public discussion: three-child dual-parent zero income tax",
+    "bill_ref": "dec-family-tax",
+    "stage": "Second reading · open floor",
+    "started": "14:00 ET",
+    "viewers_demo": 12840,
+    "callers_waiting_demo": 47
+  },
+  "ai_summary": {
+    "updated": "live demo",
+    "clusters": [
+      {
+        "theme": "Support · nation-building families",
+        "share": "41%",
+        "points": [
+          "Three kids while married or common-law is rare and hard; tax code should not punish it.",
+          "Dual-parent zero is clearer than opaque credit mazes.",
+          "Pair with waste cuts so the math holds."
+        ]
+      },
+      {
+        "theme": "Caution · fiscal cost",
+        "share": "28%",
+        "points": [
+          "Score the hole against the personal income tax base before permanent law.",
+          "Need annual public cost and uptake scoreboard.",
+          "Childless workers ask who pays the residual."
+        ]
+      },
+      {
+        "theme": "Design · cliff and fraud",
+        "share": "18%",
+        "points": [
+          "Smooth path at one and two kids so the three-kid cliff is not gamed.",
+          "Define dependent carefully; audit fraud.",
+          "Provincial match matters for real take-home."
+        ]
+      },
+      {
+        "theme": "Process · open chamber",
+        "share": "13%",
+        "points": [
+          "Citizens want this discussion always public, not lobby-only.",
+          "AI summary is useful if prompts and method stay visible.",
+          "Call-in queue must be fair and identity-checked."
+        ]
+      }
+    ],
+    "udl_note": "AI summary is input to Universal Decision Logic, not a vote count. Steelman and fiscal math still decide. Named humans still sign."
+  },
+  "messages": [
+    {
+      "id": "m1",
+      "who": "Citizen · Halifax",
+      "channel": "chat",
+      "text": "I have three kids and both of us work. Zero tax for both parents would change our entire decade."
+    },
+    {
+      "id": "m2",
+      "who": "Citizen · Calgary",
+      "channel": "chat",
+      "text": "Support if the waste ledger actually funds it. No fairy-dust deficits."
+    },
+    {
+      "id": "m3",
+      "who": "MP · Finance critic desk",
+      "channel": "floor",
+      "text": "The bill pairs dual-parent zero at three kids with published Trace savings path. Year-five review is mandatory."
+    },
+    {
+      "id": "m4",
+      "who": "Citizen · call-in",
+      "channel": "call",
+      "text": "I'm single, no kids. Fine with this if childless workers still see lower waste and open books. Don't hide the cost."
+    },
+    {
+      "id": "m5",
+      "who": "Citizen · Montréal",
+      "channel": "chat",
+      "text": "Make provincial match part of the decision package or the federal zero is half a promise."
+    },
+    {
+      "id": "m6",
+      "who": "AI chamber clerk",
+      "channel": "system",
+      "text": "Cluster update: support cluster leads on nation-building; fiscal caution second. Full steelman queued for Decision Package."
+    },
+    {
+      "id": "m7",
+      "who": "Citizen · Vancouver",
+      "channel": "chat",
+      "text": "For the people, by the people means I can say this in public while you debate, not after the vote."
+    },
+    {
+      "id": "m8",
+      "who": "Senator · review desk",
+      "channel": "floor",
+      "text": "We will not pass without the UDL foreign-interest and data-grade blocks filled. No closed-door rewrite."
+    }
+  ]
+}

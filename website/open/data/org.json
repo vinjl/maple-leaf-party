@@ -38,11 +38,12 @@
       "name": "Legislative",
       "kind": "branch",
       "parent": "root",
-      "mandate": "Parliament makes law. Bills require published Decision Packages (reasons, UDL, AI analysis, prompts).",
+      "mandate": "Parliament makes law in public. Bills require Decision Packages. The Public Chamber lets citizens chat, call in, and be summarized by AI during debate. For the people, by the people.",
       "github": "https://github.com/vinjl/maple-leaf-party/tree/main/government/legislative/",
       "children": [
         "house",
-        "senate"
+        "senate",
+        "public-chamber"
       ]
     },
     {
@@ -50,7 +51,7 @@
       "name": "House of Commons",
       "kind": "chamber",
       "parent": "legislative",
-      "mandate": "Elected chamber. Material bills cannot skip Universal Decision Logic under Maple rules.",
+      "mandate": "Elected chamber. Material bills cannot skip Universal Decision Logic. Floor debate streams into the Public Chamber.",
       "children": []
     },
     {
@@ -58,7 +59,15 @@
       "name": "Senate",
       "kind": "chamber",
       "parent": "legislative",
-      "mandate": "Review chamber. Same Decision Package sunlight as the Commons for material acts.",
+      "mandate": "Review chamber. Same Decision Package sunlight. Public Chamber remains open during review.",
+      "children": []
+    },
+    {
+      "id": "public-chamber",
+      "name": "Public Chamber",
+      "kind": "chamber",
+      "parent": "legislative",
+      "mandate": "Live citizen chat, call-in queue, and AI view-summary during public debate on any material act. For the people, by the people. Demo at #/chamber.",
       "children": []
     },
     {

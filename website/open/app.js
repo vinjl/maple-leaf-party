@@ -9,8 +9,9 @@
     decisions: null,
     traces: null,
     issues: null,
+    chamber: null,
     selectedId: null,
-    treasuryFocus: null, // budget line key or org id
+    treasuryFocus: null,
     search: "",
   };
 
@@ -66,6 +67,7 @@
     if (parts[0] === "trace" && parts[1]) return { name: "trace", id: parts[1] };
     if (parts[0] === "issues") return { name: "issues" };
     if (parts[0] === "decisions") return { name: "decisions" };
+    if (parts[0] === "chamber") return { name: "chamber" };
     return { name: "map" };
   }
 
@@ -342,6 +344,15 @@
         }
         ${budgetHtml}
         ${
+          orgId === "public-chamber" || orgId === "house" || orgId === "senate" || orgId === "legislative"
+            ? `<div class="drawer-block">
+          <h3>Public Chamber</h3>
+          <p class="open-note">Live citizen chat, call-in, and AI view-summary during debate.</p>
+          <p><a class="action" href="#/chamber">Enter Public Chamber →</a></p>
+        </div>`
+            : ""
+        }
+        ${
           allDecs.length
             ? `<div class="drawer-block">
           <h3>Decision Packages</h3>
@@ -362,6 +373,108 @@
         <div id="traceSlot" class="drawer-block drawer-trace-slot" hidden></div>
       </div>
     `;
+  }
+
+  function renderChamber() {
+    const c = state.chamber;
+    if (!c) return `<p class="open-note">Chamber data missing.</p>`;
+    const s = c.session;
+    const local = loadLocalChat();
+    const messages = [...c.messages, ...local];
+
+    return `
+      <nav class="open-crumb"><a href="#/map">State map</a> · <a href="#/org/legislative">Legislative</a> · Public Chamber</nav>
+      <header class="open-page-head">
+        <p class="open-kicker">${esc(c.meta.slogan)}</p>
+        <h1>Public Chamber</h1>
+        <p class="open-lead">
+          While Parliament debates anything material, citizens are in the room.
+          Live chat, call-in queue, AI clustering of views, then Universal Decision Logic still decides.
+        </p>
+        <p class="open-note">${esc(c.meta.disclaimer)}</p>
+      </header>
+
+      <div class="chamber-layout">
+        <section class="chamber-main">
+          <div class="chamber-session">
+            <span class="chamber-live">● ${esc(s.status)}</span>
+            <h2>${esc(s.title)}</h2>
+            <p class="open-meta">${esc(s.stage)} · started ${esc(s.started)} · ~${esc(String(s.viewers_demo))} watching · ${esc(String(s.callers_waiting_demo))} in call queue <span class="open-demo-tag">demo</span></p>
+            <p><a class="action action-quiet" href="#/decision/${esc(s.bill_ref)}">Linked Decision Package →</a></p>
+          </div>
+
+          <div class="chamber-chat" id="chamberChat" aria-live="polite">
+            ${messages
+              .map(
+                (m) => `
+              <article class="chamber-msg chamber-msg-${esc(m.channel)}">
+                <header>
+                  <strong>${esc(m.who)}</strong>
+                  <span class="chamber-channel">${esc(m.channel)}</span>
+                </header>
+                <p>${esc(m.text)}</p>
+              </article>`
+              )
+              .join("")}
+          </div>
+
+          <form id="chamberForm" class="chamber-compose open-form">
+            <label>Your message to the floor
+              <textarea name="text" required rows="2" maxlength="400" placeholder="Identity-checked citizens would speak here in a live session…"></textarea>
+            </label>
+            <div class="chamber-compose-row">
+              <button type="submit" class="action">Send to demo chat</button>
+              <button type="button" class="action action-quiet" id="chamberCallBtn">Request call-in slot</button>
+            </div>
+            <p class="open-note" id="chamberNote" role="status"></p>
+          </form>
+        </section>
+
+        <aside class="chamber-side">
+          <div class="open-panel open-panel-ai">
+            <h2>AI view summary <span class="open-demo-tag">live demo</span></h2>
+            <p class="open-note">${esc(c.ai_summary.udl_note)}</p>
+            ${c.ai_summary.clusters
+              .map(
+                (cl) => `
+              <div class="chamber-cluster">
+                <h3 class="open-sub">${esc(cl.theme)} · ${esc(cl.share)}</h3>
+                <ul class="plain">
+                  ${cl.points.map((pt) => `<li>${esc(pt)}</li>`).join("")}
+                </ul>
+              </div>`
+              )
+              .join("")}
+          </div>
+          <div class="open-panel">
+            <h2>How this works</h2>
+            <ul class="plain">
+              <li><strong>Chat</strong> during public debate on any material act.</li>
+              <li><strong>Call-in</strong> fair queue, recorded and transcribed.</li>
+              <li><strong>AI</strong> clusters views; prompts and method stay public; not a vote count.</li>
+              <li><strong>Logic and math</strong> still gate the Decision Package. Named humans still sign.</li>
+            </ul>
+            <p class="home-cta-line">
+              <a class="action action-quiet" href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">Propose on GitHub →</a>
+            </p>
+          </div>
+        </aside>
+      </div>
+    `;
+  }
+
+  function loadLocalChat() {
+    try {
+      return JSON.parse(localStorage.getItem("mlp-chamber-chat") || "[]");
+    } catch {
+      return [];
+    }
+  }
+
+  function saveLocalChat(msg) {
+    const list = loadLocalChat();
+    list.push(msg);
+    localStorage.setItem("mlp-chamber-chat", JSON.stringify(list.slice(-40)));
   }
 
   function renderMapShell(mode, selectedId) {
@@ -667,6 +780,39 @@
       }
       return;
     }
+    if (route.name === "chamber") {
+      root.innerHTML = renderChamber();
+      const form = $("#chamberForm");
+      const note = $("#chamberNote");
+      if (form) {
+        form.addEventListener("submit", (e) => {
+          e.preventDefault();
+          const fd = new FormData(form);
+          const text = String(fd.get("text") || "").trim();
+          if (!text) return;
+          saveLocalChat({
+            id: `lc-${Date.now()}`,
+            who: "You · demo",
+            channel: "chat",
+            text,
+          });
+          form.reset();
+          render();
+          const chat = $("#chamberChat");
+          if (chat) chat.scrollTop = chat.scrollHeight;
+        });
+      }
+      const callBtn = $("#chamberCallBtn");
+      if (callBtn && note) {
+        callBtn.addEventListener("click", () => {
+          note.textContent =
+            "Demo only. In a live session you would enter the identity-checked call queue. Queue position would appear here.";
+        });
+      }
+      const chat = $("#chamberChat");
+      if (chat) chat.scrollTop = chat.scrollHeight;
+      return;
+    }
     if (route.name === "trace") {
       // open treasury with panel and show trace
       state.selectedId = "open-state";
@@ -689,18 +835,20 @@
     if (!root) return;
     root.innerHTML = `<p class="open-note">Loading map…</p>`;
     try {
-      const [org, budgets, decisions, traces, issues] = await Promise.all([
+      const [org, budgets, decisions, traces, issues, chamber] = await Promise.all([
         fetch("data/org.json").then((r) => r.json()),
         fetch("data/budgets.json").then((r) => r.json()),
         fetch("data/decisions.json").then((r) => r.json()),
         fetch("data/traces.json").then((r) => r.json()),
         fetch("data/issues.json").then((r) => r.json()),
+        fetch("data/chamber.json").then((r) => r.json()),
       ]);
       state.org = org;
       state.budgets = budgets;
       state.decisions = decisions;
       state.traces = traces;
       state.issues = issues;
+      state.chamber = chamber;
       const disc = $("#openDisclaimer");
       if (disc && org.meta?.disclaimer) disc.textContent = org.meta.disclaimer;
       // normalize empty hash to map
