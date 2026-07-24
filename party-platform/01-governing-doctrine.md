@@ -18,7 +18,7 @@ Ministries are not moral fashion houses. They are **operators** with budgets, ou
 | **Lean** | Delete dead programs/processes; small surface area |
 | **Integrity max** | Immutable history, named maintainers, dual control, reproducible totals |
 
-Detail: `09-gov-as-open-source.md` · ledger/process: `05-open-state-architecture.md` · AI CI layer: `08-ai-state.md`
+Detail: `09-gov-as-open-source.md` · ledger/process: `05-open-state-architecture.md` · AI + extreme compute + Human Council: `08-ai-state.md` · decision method: `20-universal-decision-logic.md`
 
 Clear mission, **every non-exempt dollar on the Maple Ledger**, **every non-exempt process in the MPR**, **AI State efficiency**, competitive procurement, no permanent programs without permanent proof.
 
@@ -34,7 +34,7 @@ Clear mission, **every non-exempt dollar on the Maple Ledger**, **every non-exem
 - Critical infrastructure and export corridors  
 - Catastrophic **citizen** health insurance (see Health Covenant)  
 - Disaster and pandemic surge capacity  
-- Strategic science, dual-use tech, and **sovereign AI/compute** where markets under-provide  
+- Strategic science, dual-use tech, and **Maple Extreme Compute Grid** (national + provincial world-class AI) where markets under-provide integrity capacity  
 - Permitting systems that decide **yes/no fast** (AI-assisted)  
 - **Open State infrastructure** (Maple Ledger) as core state capacity  
 - **Hard CAD / resource settlement rails** as strategic economic capacity

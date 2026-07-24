@@ -1,7 +1,7 @@
 # Party Platform — The Maple Leaf
 
-**Version:** 1.1 framework pack  
-**Standard:** Logic-based government · citizens first · fully auditable state  
+**Version:** 1.2 framework pack  
+**Standard:** Logic-based government · citizens first · fully auditable state · extreme decision logic  
 **Public site:** [`../website/`](../website/)
 
 ## Read order
@@ -18,7 +18,7 @@
 | 5 | [05-open-state-architecture.md](05-open-state-architecture.md) | Every $ + process on ledger |
 | 6 | [06-jurisdiction-map.md](06-jurisdiction-map.md) | Federalism |
 | 7 | [07-currency-resources.md](07-currency-resources.md) | Hard CAD, CRPF |
-| 8 | [08-ai-state.md](08-ai-state.md) | AI on every non-exempt function |
+| 8 | [08-ai-state.md](08-ai-state.md) | AI on every function · **extreme national/provincial compute** · Human Council |
 | 9 | [09-gov-as-open-source.md](09-gov-as-open-source.md) | OSS government culture |
 
 ### Nation & people (10–19)
@@ -35,6 +35,12 @@
 | 17 | [17-corporate-tax-canada-first.md](17-corporate-tax-canada-first.md) | MDRT + HQ magnet |
 | 18 | [18-borders-immigration.md](18-borders-immigration.md) | Secure borders, skill, law over hostile doctrine |
 | 19 | [19-national-projections.md](19-national-projections.md) | Deficit → surplus, CAD, second-order effects |
+
+### Method (20)
+
+| # | File | Content |
+|---|------|---------|
+| 20 | [20-universal-decision-logic.md](20-universal-decision-logic.md) | **Bulletproof logic for every government decision** |
 
 ### Ops
 

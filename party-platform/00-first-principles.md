@@ -31,7 +31,8 @@ We are not a culture-war cosplay party, a corporate lobby vehicle, or a global c
 1. **Citizens first.** State power is exercised for Canadians who fund and are bound by Canadian law. Foreign interests, temporary entrants, and abstract “global community” claims rank below citizens.
 2. **Evidence over fashion.** Policy follows data, history, and incentive design — not donor memes, academic fads, or media pile-ons.
 3. **Government as open source — 100% non-exempt.** Treat the state like an open source project: **transparent, open source, secure, lean, integrity-max.** Every non-exempt **outflow dollar** — including **all government benefits** — is ledger-traced and publicly auditable (**anonymized** for individual recipients; never dark). Every non-exempt process is versioned and inspectable; citizens file **bugs/fraud** on a public tracker (MCIP). **Only carve-outs:** military operations and secret police/intelligence operations.
-4. **AI-maximized state — every non-exempt function.** World-leading AI government; human accountability; no social-credit panopticon.
+4. **AI-maximized state — every non-exempt function.** World-class national and provincial extreme compute; AI watches the state for waste and abuse; **Human Council** over the machines; no social-credit panopticon.  
+4d. **Universal Decision Logic.** Every material decision survives extreme, ideology-blind logic: citizen outcome, steelman for/against, replicable data, foreign-interest tests (`20`).
 4b. **Free speech.** Criminal speech law covers **explicit violence calls/threats only** — not subjective hate or hurt feelings.
 4c. **Nation of owners.** Maple Seed→Tree (RESP overhaul): deductible in, tax-free growth and out; Canada-first corporate tax when profits stay and pay Canadians.
 5. **Hard Canadian dollar.** Minimal inflation; fiscal steel; major resources settled in **CAD** so the world must hold our currency; resource wealth saved, not binged.
@@ -59,18 +60,23 @@ When interests conflict, rank:
 
 ## 5. Decision algorithm
 
-Every bill, program, regulation, and party policy must pass:
+Every bill, program, regulation, and party policy must pass the short tests below — and, for **material** decisions, the full **Universal Decision Logic** battery in [`20-universal-decision-logic.md`](20-universal-decision-logic.md).
 
 | # | Test | Fail means |
 |---|------|------------|
-| 1 | **Citizen interest** — improves long-run outcomes for Canadians? | Reject or redesign |
-| 2 | **Evidence** — supported by data/history/incentives? | Reject or pilot with kill switch |
-| 3 | **Subsidiarity** — can markets/families/provinces do it better? | Devolve or don’t create |
-| 4 | **Skin in the game** — payers and beneficiaries aligned? | Add conditions/clawbacks |
-| 5 | **Auditability** — can a competent citizen verify cost & outcome? | Open-State redesign |
-| 6 | **Sunset / kill criteria** — how does it die if it fails? | Mandatory sunset |
-| 7 | **Constitutional realism** — winable design? | Least-impairing rewrite |
-| 8 | **Capital & talent retention** — makes Canada beat the US on keep-rate? | Fix tax/regulatory stack |
+| 1 | **Citizen interest** — safer, smarter, stronger, richer for citizens **and their children**? | Reject or redesign |
+| 2 | **Extreme logic** — steelman for *and* against; chains valid without fashion labels? | Reject or rewrite argument |
+| 3 | **Evidence grade** — replicable, not foreign-captured, not single irreplicable study? | Reject or pilot with kill switch |
+| 4 | **Foreign interest** — hidden foreign gain without citizen gain? | Reject or redesign |
+| 5 | **History of money/risk** — prior spend failed? prior intake imposed harm? | Reallocate, redesign, or refuse |
+| 6 | **Subsidiarity** — can markets/families/provinces do it better? | Devolve or don’t create |
+| 7 | **Skin in the game** — payers and beneficiaries aligned? | Add conditions/clawbacks |
+| 8 | **Auditability** — can a competent citizen verify cost & outcome? | Open-State redesign |
+| 9 | **Sunset / kill criteria** — how does it die if it fails? | Mandatory sunset |
+| 10 | **Constitutional realism** — winable design? | Least-impairing rewrite |
+| 11 | **Capital & talent retention** — makes Canada beat the US on keep-rate? | Fix tax/regulatory stack |
+
+AI State on the Maple Extreme Compute Grid runs these tests at scale; the **Human Council of Logic & Integrity** and named officials remain accountable (`08`).
 
 ---
 
