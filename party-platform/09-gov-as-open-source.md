@@ -27,6 +27,23 @@ This is not “governance by Twitter poll” and not “DAO replaces Parliament.
 
 ---
 
+## 1b. Hosting path — prototype now, national platform later
+
+| Phase | Host | Who can propose / file issues |
+|-------|------|--------------------------------|
+| **Party / design phase** | Public GitHub repo (this project) | Anyone can *read*; serious proposals follow CONTRIBUTING; GitHub is a **prototype host**, not the end state |
+| **Maple government** | **National Open Government Platform** Canadian-hosted, sovereign | **Verified Canadian citizen identity accounts only** — My Service Canada–class proof of citizenship, not foreign logins, not bots, not the world writing Canadian law |
+
+**End-state rules**
+
+1. Read access to non-exempt government source and ledgers remains as public as law allows.  
+2. **Write path** (propose laws, process fixes, waste bounty claims, Public Chamber identity) requires **citizen verification**.  
+3. Permanent residents and others may have limited status-specific channels as statute defines; default write power is **citizens**.  
+4. The national platform replaces third-party commercial forges for official state source of truth.  
+5. Logic gate and Decision Packages still apply. Citizenship is the key. Logic is the filter.
+
+---
+
 ## 2. Mapping: OSS project → Canadian state
 
 | OSS practice | Maple government practice |

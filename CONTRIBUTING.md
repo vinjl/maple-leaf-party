@@ -1,7 +1,16 @@
 # Contributing to open government
 
-This repository is the Maple Leaf design of government in public files.
-You are not only a visitor. You can propose laws, fixes, and waste cuts the way open source works.
+This repository is the Maple Leaf **design** of government in public files.
+You can propose laws, fixes, and waste cuts the way open source works.
+
+## Two phases
+
+| Now | Under a Maple government |
+|-----|---------------------------|
+| This **GitHub** repo is the living prototype so people can read and improve the design | A **national open-government platform**, Canadian-hosted, becomes the official source of truth |
+| Issues and PRs here train the culture | Proposals, waste claims, and chamber identity require a **verified Canadian citizen account** (My Service Canada–class), **citizens only** |
+
+GitHub is the scaffolding. The permanent house is a sovereign citizen platform.
 
 ## What lives here
 
@@ -11,11 +20,11 @@ You are not only a visitor. You can propose laws, fixes, and waste cuts the way 
 | `government/` | Map of the state, ministries, branches. |
 | `party-platform/` | Full policy depth and decision method. |
 
-## Take part in three steps
+## Take part now
 
 1. **See how it works** on the site: [Open Government Explorer](https://www.mapleleafparty.ca/open/) (state map, Treasury flow, Decision Packages).  
-2. **Speak in the Public Chamber** during debate: [live demo](https://www.mapleleafparty.ca/open/#/chamber) (chat, call-in queue, AI view summary). For the people, by the people.  
-3. **Propose on GitHub**
+2. **Speak in the Public Chamber** demo: [chamber](https://www.mapleleafparty.ca/open/#/chamber) (chat, call-in queue, AI view summary). For the people, by the people.  
+3. **Propose on this GitHub prototype**
    - [New issue](https://github.com/vinjl/maple-leaf-party/issues/new/choose) for a problem, idea, or waste report.  
    - Pull request to edit `party-platform/` or `government/` when you have a concrete change.  
 4. **Clear the logic gate** so maintainers can test your idea.

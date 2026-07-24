@@ -455,8 +455,9 @@
               <li><strong>Logic and math</strong> still gate the Decision Package. Named humans still sign.</li>
             </ul>
             <p class="home-cta-line">
-              <a class="action action-quiet" href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">Propose on GitHub →</a>
+              <a class="action action-quiet" href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">Propose on GitHub prototype →</a>
             </p>
+            <p class="open-note">Live chamber access under Maple government is for verified Canadian citizens only.</p>
           </div>
         </aside>
       </div>
@@ -497,10 +498,10 @@
             <p class="open-lead">${lead}</p>
             <p class="open-note">
               Want to change something?
-              <a href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">Open a GitHub issue</a>
-              or read
-              <a href="https://github.com/vinjl/maple-leaf-party/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">how to contribute</a>.
-              Proposals that clear logic and math can move into the plan.
+              Today use the
+              <a href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">GitHub prototype</a>.
+              Under Maple government, proposals will need a verified Canadian citizen account on a national platform.
+              <a href="https://github.com/vinjl/maple-leaf-party/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">How to contribute</a>.
             </p>
           </header>
           ${
