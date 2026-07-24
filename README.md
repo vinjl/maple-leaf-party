@@ -6,7 +6,7 @@
 
 | Product | Path | Audience |
 |---------|------|----------|
-| **Public website** | [`website/`](website/) · [How we decide](website/plan/index.html#logic) | Citizens — method, plan, join |
+| **Public website** | [`website/`](website/) · [**Open Government Explorer**](website/open/) | Citizens — method, plan, interactive demo |
 | **Open government model** | [`government/`](government/) | Full branches & ministries as open source |
 | **Policy source** | [`party-platform/`](party-platform/) | **UDL headliner** + laws, tax, health, borders |
 

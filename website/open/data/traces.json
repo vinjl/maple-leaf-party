@@ -1,0 +1,125 @@
+{
+  "traces": [
+    {
+      "id": "T-DEMO-001",
+      "title": "Sample transfer outflow (anonymized)",
+      "steps": [
+        { "stage": "Tax in", "detail": "Revenue into Public Treasury (aggregate public)." },
+        { "stage": "Appropriation", "detail": "Parliament vote → Trace root T-DEMO-001." },
+        { "stage": "Program", "detail": "Benefit program line (individual payees anonymized on public ledger)." },
+        { "stage": "Payment", "detail": "Cleared only with Trace ID." },
+        { "stage": "Outcome check", "detail": "If totals fail to reconcile → fraud protocol." }
+      ]
+    },
+    {
+      "id": "T-DEMO-010",
+      "title": "Health catastrophic share (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "Health catastrophic line authorized." },
+        { "stage": "Transfer / program", "detail": "Federal share toward citizen catastrophic pool (demo)." },
+        { "stage": "Payment", "detail": "Trace-cleared disbursement." },
+        { "stage": "Outcome", "detail": "Public KPI: wait times, solvency, ER always first." }
+      ]
+    },
+    {
+      "id": "T-DEMO-020",
+      "title": "Defence readiness (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "Defence vote." },
+        { "stage": "Contract", "detail": "Open contract text + beneficial ownership (non-exempt)." },
+        { "stage": "Payment", "detail": "Milestone Trace IDs." }
+      ]
+    },
+    {
+      "id": "T-DEMO-021",
+      "title": "National Service Year operations (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "NSY replaces grade 10 — training budget." },
+        { "stage": "Sites & cadres", "detail": "Training sites, sex-separated streams, instructors." },
+        { "stage": "Payment", "detail": "Ops spend under Trace." },
+        { "stage": "Outcome", "detail": "Cohort fitness, completion, later education outcomes published in aggregate." }
+      ]
+    },
+    {
+      "id": "T-DEMO-030",
+      "title": "Tax administration (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "CRA-class ops under Maple ledger rules." },
+        { "stage": "Systems", "detail": "Collection + family tax zero at three kids." },
+        { "stage": "Payment", "detail": "Ops Trace." }
+      ]
+    },
+    {
+      "id": "T-DEMO-031",
+      "title": "Family tax system (demo)",
+      "steps": [
+        { "stage": "Law", "detail": "Decision dec-family-tax adopted." },
+        { "stage": "Systems change", "detail": "Both parents zero PIT at three dependent kids + married/CL." },
+        { "stage": "Public scoreboard", "detail": "Uptake and fiscal cost published annually." }
+      ]
+    },
+    {
+      "id": "T-DEMO-040",
+      "title": "Substance purity labs (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "Regulated supply integrity." },
+        { "stage": "Labs & tracking", "detail": "Purity, unit dose, age gates 21/25." },
+        { "stage": "Payment", "detail": "Trace-cleared." }
+      ]
+    },
+    {
+      "id": "T-DEMO-041",
+      "title": "Food disclosure & ad ban enforcement (demo)",
+      "steps": [
+        { "stage": "Law", "detail": "dec-food-ads." },
+        { "stage": "Enforcement", "detail": "Label truth + UPF/unhealthy ad ban." },
+        { "stage": "Payment", "detail": "Ops Trace." }
+      ]
+    },
+    {
+      "id": "T-DEMO-050",
+      "title": "Border security & removals (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "dec-borders capacity and removals priority." },
+        { "stage": "Ops", "detail": "Security, removals of violent non-citizens." },
+        { "stage": "Payment", "detail": "Trace-cleared." }
+      ]
+    },
+    {
+      "id": "T-DEMO-060",
+      "title": "Porn ban enforcement (demo)",
+      "steps": [
+        { "stage": "Law", "detail": "dec-porn commercial/public ban." },
+        { "stage": "Enforcement", "detail": "Platform and commercial production rules." },
+        { "stage": "Payment", "detail": "Ops Trace." }
+      ]
+    },
+    {
+      "id": "T-DEMO-070",
+      "title": "Maple Ledger build (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "Open State infrastructure." },
+        { "stage": "Build", "detail": "Ledger + Trace + public APIs." },
+        { "stage": "Payment", "detail": "Milestone Trace." }
+      ]
+    },
+    {
+      "id": "T-DEMO-071",
+      "title": "Extreme Compute Grid node (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "National AI audit compute." },
+        { "stage": "Partners", "detail": "Multi-vendor under Canadian control." },
+        { "stage": "Payment", "detail": "Capex/opex Trace." }
+      ]
+    },
+    {
+      "id": "T-DEMO-072",
+      "title": "Waste bounty fund (demo)",
+      "steps": [
+        { "stage": "Appropriation", "detail": "Citizen waste/fraud bounty pool." },
+        { "stage": "Payout", "detail": "Paid only when verified savings realized." },
+        { "stage": "Scoreboard", "detail": "Public list of paid bounties and $ saved." }
+      ]
+    }
+  ]
+}

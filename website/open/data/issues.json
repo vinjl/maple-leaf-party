@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "bounty_rules": "Verified Canadian citizens are paid when a report is confirmed and produces a measurable cut in tax-dollar use. Reward scales with verified fiscal impact (demo tiers)."
+  },
+  "bounty_tiers_demo": [
+    { "impact": "Under $100k saved", "reward": "$500–$2,000 (demo)" },
+    { "impact": "$100k–$1M saved", "reward": "$2,000–$25,000 (demo)" },
+    { "impact": "$1M–$10M saved", "reward": "$25,000–$100,000 (demo)" },
+    { "impact": "Over $10M saved", "reward": "Capped major award + public recognition (demo)" }
+  ],
+  "issues": [
+    {
+      "id": "ISS-1001",
+      "type": "waste",
+      "title": "Duplicate grant streams same NGO parent",
+      "status": "paid",
+      "org_id": "finance",
+      "summary": "Citizen filed Trace comparison showing two program lines funding the same beneficial owner for the same activity.",
+      "verified_savings": 2400000,
+      "bounty_paid": 28000,
+      "trace_ids": ["T-DEMO-030"]
+    },
+    {
+      "id": "ISS-1002",
+      "type": "fraud",
+      "title": "Sole-source contract without published competition record",
+      "status": "open",
+      "org_id": "digital",
+      "summary": "Missing competition file on a software renewal. Under review by Fraud Cell.",
+      "verified_savings": null,
+      "bounty_paid": null,
+      "trace_ids": ["T-DEMO-070"]
+    },
+    {
+      "id": "ISS-1003",
+      "type": "bug",
+      "title": "SLA clock not published on permit process",
+      "status": "fixed",
+      "org_id": "borders",
+      "summary": "Process registry missing public SLA. Fixed; clock now visible.",
+      "verified_savings": null,
+      "bounty_paid": null,
+      "trace_ids": []
+    },
+    {
+      "id": "ISS-1004",
+      "type": "waste",
+      "title": "Conference series with no outcome KPI for three years",
+      "status": "paid",
+      "org_id": "pmo",
+      "summary": "Program cancelled after citizen report; budget returned.",
+      "verified_savings": 610000,
+      "bounty_paid": 4500,
+      "trace_ids": []
+    }
+  ]
+}

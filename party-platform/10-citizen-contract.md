@@ -60,8 +60,10 @@ Canada is run for **citizens first**. Government is an **open source project**: 
 
 - Subsidized **AI tools** under 18 and for post-secondary students  
 - Homeschool respected; **gifted path** via monitored ability tests  
-- National Service Year (training, not combat) — phased, not day-one cruelty  
-- Substance ages by harm: **25** for alcohol/nicotine/cannabis/LSD/MDMA/ketamine (pure); **21** for psilocybin and coca **leaf** (not cocaine)
+- National Service Year **replaces grade 10** (training, not combat deployment); mostly sex-separated streams; grade 11–12 after  
+- Substance ages by harm: **25** alcohol, smoked nicotine, cannabis, LSD/MDMA/ketamine (pure); **21** psilocybin, smokeless tobacco, coca **leaf** (not cocaine)  
+- Children’s clothing standards toward organic / natural fibre where exposure matters  
+- **Waste bounty:** verified citizens paid when findings cut real tax spend
 
 ### 2.6 Builders
 

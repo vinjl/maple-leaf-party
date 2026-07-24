@@ -1,0 +1,172 @@
+{
+  "decisions": [
+    {
+      "id": "dec-family-tax",
+      "title": "Zero personal income tax for both parents at three dependent children",
+      "status": "adopted",
+      "org_id": "finance",
+      "date": "2026-demo",
+      "signatory": "Minister of Finance (demo)",
+      "official_reasons": "Households that raise three dependent children while married or common-law together carry the long bill of the nation. The tax code will not treat that household as a cash cow. Deep deductions apply on the path at one and two children. Both parents zero-rated on personal income tax at three — not one parent only. Funded by waste cuts and health-load redesign first, not fairy-dust deficits.",
+      "udl": {
+        "citizen_test": "Safer/smarter/stronger/richer for citizens and their children: yes — more take-home for nation-building households; next generation better funded by parents.",
+        "steelman_for": "Fertility and family formation are national capacity. High tax on dual earners with kids is self-sabotage. Clear cliff at three is simple to administer and honest to advertise.",
+        "steelman_against": "Fiscal cost is large; childless taxpayers subsidize; fertility response may be modest; complexity and fraud risk at the margin of 'dependent'.",
+        "data_grade": "B",
+        "foreign_interest": "No foreign state gain. Domestic political risk only.",
+        "history": "Prior baby bonuses without dual-parent zero and without waste cuts failed the ledger. This pairs tax power with Open State savings."
+      },
+      "ai": {
+        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "prompt": "Run Universal Decision Logic on: federal zero personal income tax for BOTH parents when three dependent children and married/common-law together. Steelman for and against from all spectrum extremes. Use only citizen outcomes, fiscal arithmetic, and history of family transfers. No political branding. Flag foreign interest. Recommend adopt/pilot/reject.",
+        "analysis": "VALID STRUCTURE: If nation needs more stable multi-child households and current PIT burdens dual earners with kids, then reducing PIT at a clear threshold is a coherent tool.\n\nFOR: Simplicity beats opaque credit mazes; dual-parent zero is the distinctive load-bearing rule; aligns incentives with long-run citizen stock.\n\nAGAINST: Score the gross fiscal hole against PIT base (~public $238B-class personal take — order of magnitude). Without concurrent waste destruction and health redesign, debt rises — fails hard-dollar non-negotiable.\n\nDATA: Fertility elasticities to tax are real but not infinite; treat as B-grade. Require annual published cost and uptake.\n\nFOREIGN: None material.\n\nRECOMMEND: ADOPT only sequenced after Open State waste path is live; sunset review at year 5 if uptake and solvency miss KPI."
+      },
+      "council": "Human Council: approve with mandatory fiscal sequence (ledger savings path visible). Dissent noted on cliff effects at child 2→3.",
+      "outcome": "Adopted. Systems change under Trace T-DEMO-031. Public scoreboard required annually."
+    },
+    {
+      "id": "dec-nsy",
+      "title": "Mandatory National Service Year replaces grade 10",
+      "status": "adopted",
+      "org_id": "defence",
+      "date": "2026-demo",
+      "signatory": "Minister of Defence & National Service (demo)",
+      "official_reasons": "Grade 10 becomes one year of mandatory national service: military-style training, not combat deployment. Streams mostly sex-separated so trainees work instead of dating drama. Early rise, fitness, standards, real consequences. Grade 11–12 and post-secondary continue after. Purpose: cut bad habits before the years that decide university and trades; build a generation that keeps time and finishes work.",
+      "udl": {
+        "citizen_test": "Stronger and more orderly next generation of citizens; higher completion discipline before advanced school.",
+        "steelman_for": "Habit window closes after mid-teens. Soft school discipline fails many, especially boys at peak hormones. Shared hard standards raise national cohesion and lower chaos costs later (crime, dropout, unemployability).",
+        "steelman_against": "Charter and provincial education power risk; cost; uneven quality of cadres; risk of abuse in institutions; some academic interruption; political backlash.",
+        "data_grade": "C–B",
+        "foreign_interest": "None material. Allied training models informative only.",
+        "history": "Countries with service traditions show cohesion gains when training is serious and not politicized theatre. Poorly run camps fail — publish kill criteria."
+      },
+      "ai": {
+        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "prompt": "UDL on replacing grade 10 with mandatory military-style national service (no combat deployment), mostly sex-separated training, then grade 11–12. Steelman all spectrum extremes. Include boy/girl developmental differences only where evidence supports training design. Charter risk flag. Adopt/pilot/reject.",
+        "analysis": "LOGIC: If (a) habit formation peaks mid-teens and (b) classroom-only environments produce preventable failure modes and (c) later remediation is costlier, then a structured service year before grade 11–12 is a rational intervention — provided academics resume and abuse controls are real.\n\nSEX SEPARATION: Training design to reduce distraction is not a moral essay; it is an efficiency claim. Mixed modules can remain for shared skills if evidence supports.\n\nAGAINST: Rights litigation, cost, cadre quality. Without rigorous instructor standards this becomes trauma factory or summer camp — both fail UDL.\n\nRECOMMEND: ADOPT in law with phased stand-up, public UDL, independent inspectorate, medical alternatives, and automatic review. Pilot metrics before full cohort size if counsel requires."
+      },
+      "council": "Council: approve design with inspectorate and Charter counsel memo public in summary. No combat deployment as product.",
+      "outcome": "Adopted as program design. Ops Trace T-DEMO-021. Provincial delivery compact required."
+    },
+    {
+      "id": "dec-substances",
+      "title": "Harm-tiered substance ages: psilocybin 21+; alcohol/smoking/LSD/MDMA/ketamine 25+",
+      "status": "adopted",
+      "org_id": "health",
+      "date": "2026-demo",
+      "signatory": "Minister of Health (demo)",
+      "official_reasons": "Ages follow harm, not fashion. Alcohol and smoked nicotine to 25. Psilocybin regulated at 21: low dependence/overdose risk relative to alcohol, with real evidence of benefit in defined clinical contexts — face facts, end the hypocrisy of legal high-harm drugs and total bans on lower-harm tools. LSD, MDMA, ketamine at 25 under purity and unit-dose rules. Smokeless tobacco 21. Street fentanyl and mystery analogues stay illegal as party supply.",
+      "udl": {
+        "citizen_test": "Reduce youth brain harm from high-harm drugs; cut black-market poison; allow adult access where evidence supports lower harm and benefit.",
+        "steelman_for": "Alcohol is legal and lethal at scale; consistency requires either honesty about harm tiers or total prohibition (which fails). Regulated psilocybin beats contaminated product. Purity rules for MDMA/LSD/ketamine at 25 reduce body-bag outcomes from mystery pills.",
+        "steelman_against": "Normalization risk; impaired driving; industry capture; medical evidence overclaimed by advocates; enforcement complexity.",
+        "data_grade": "B for relative harm rankings; B–C for population benefit claims — do not overclaim.",
+        "foreign_interest": "Watch foreign grey-market and pharma lobbying both ways.",
+        "history": "Prohibition of popular substances without harm ranking produces black markets. Age gates must be enforced to mean anything."
+      },
+      "ai": {
+        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "prompt": "Compare alcohol, nicotine (smoked vs smokeless), cannabis, psilocybin, LSD, MDMA, ketamine on dependence, overdose, violence, and developing-brain risk. Propose age tiers for Canada under citizens-first UDL. No moral fashion. Cite uncertainty. Recommend legal architecture: ban vs regulate.",
+        "analysis": "HARM ORDER (population): alcohol and smoked nicotine dominate death and social cost. Psilocybin dependence/OD risk is far lower; therapeutic signal exists in depression/addiction/end-of-life distress under controlled use — still not a toy.\n\nTIERING: 25 for high social-cost recreational intoxicants (alcohol, smoked nicotine, cannabis, LSD/MDMA/ketamine). 21 for psilocybin and smokeless tobacco with ad bans and purity.\n\nHYPocrisy TEST: Keeping alcohol at 18/19 while banning lower-harm psychedelics fails non-contradiction.\n\nRECOMMEND: ADOPT tiers + purity labs + no youth ads + impaired driving enforcement. Publish evidence grades annually; strip marketing claims that exceed data."
+      },
+      "council": "Council: adopt tiers; medical claims must stay inside evidence grade. Pregnancy zero-tolerance remains.",
+      "outcome": "Adopted. Lab and tracking budget T-DEMO-040."
+    },
+    {
+      "id": "dec-porn",
+      "title": "Ban commercial and public pornography; private non-commercial adult only",
+      "status": "adopted",
+      "org_id": "justice",
+      "date": "2026-demo",
+      "signatory": "Minister of Justice (demo)",
+      "official_reasons": "Industrial porn is not free speech fashion — it is a commercial aggression and addiction pipeline aimed at the young. Commercial production, sale, and public platforms banned in Canada. Private non-commercial adult possession/use among adults only, not publicly accessible. Non-consensual distribution remains a hard crime.",
+      "udl": {
+        "citizen_test": "Safer kids and young adults; less aggression and wasted hours; stronger families over time.",
+        "steelman_for": "Scale of exposure to minors via phones is a public-health and crime-adjacent problem. Commercial industry optimizes addiction. Public ban cuts supply and glamour.",
+        "steelman_against": "Charter expression risk; enforcement hard; black markets; overbreadth; adult liberty costs.",
+        "data_grade": "B for youth exposure and addiction patterns; causal claims on crime require careful wording.",
+        "foreign_interest": "Offshore platforms — need tech and payment enforcement.",
+        "history": "Ad bans and age gates without commercial ban leave the industry intact. Pair with gambling ad ban."
+      },
+      "ai": {
+        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "prompt": "UDL on commercial/public porn ban with private non-commercial adult exception. Steelman free-speech maximalism vs child-protection and social-cost arguments. Enforcement options. Charter-aware least-impairing design.",
+        "analysis": "SPEECH: Commercial scale and algorithmic push differ from private adult acts. A ban aimed at industry and public distribution is narrower than banning private thought.\n\nCHILD PROTECTION: Default phone access makes 'parental responsibility only' insufficient as sole tool.\n\nENFORCEMENT: Payment rails, hosting, and age-gate liability beat street vice squads.\n\nRISK: Overbreadth and selective enforcement. Definitions must be precise.\n\nRECOMMEND: ADOPT commercial/public ban; private non-commercial adult carve-out; harden NCII; independent oversight of enforcement. Charter memo public in summary."
+      },
+      "council": "Council: adopt with tight definitions and counsel summary public.",
+      "outcome": "Adopted. Enforcement Trace T-DEMO-060."
+    },
+    {
+      "id": "dec-food-ads",
+      "title": "Full food disclosure + ban on ads for ultra-processed and unhealthy food",
+      "status": "adopted",
+      "org_id": "food",
+      "date": "2026-demo",
+      "signatory": "Minister of Agriculture & Food (demo)",
+      "official_reasons": "If the label lies, the body pays. Full public disclosure of what is in food. Ban advertising ultra-processed and clearly unhealthy food products — adults may still buy; we ban the industrial pitch that makes disease profitable. Healthy and whole food tax-favoured.",
+      "udl": {
+        "citizen_test": "Healthier citizens, lower preventable disease load, less tax for lifestyle disease.",
+        "steelman_for": "Kids cannot out-negotiate billion-dollar ad machines. Price and disclosure beat lectures alone.",
+        "steelman_against": "Trade law, definition fights, black-market ads, rural access, nanny-state critique.",
+        "data_grade": "A–B on ad effects on kids; B on long-run hospital savings.",
+        "foreign_interest": "Multinational food marketers.",
+        "history": "Tobacco-style ad limits worked on glamour; food is next largest preventable load."
+      },
+      "ai": {
+        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "prompt": "UDL on UPF/unhealthy food advertising ban plus full ingredient/process disclosure and tax favour for whole food. Steelman industry and liberty objections. Least-impairing design.",
+        "analysis": "ADS ≠ PRODUCT BAN: Leaving products on shelves while ending mass persuasion is coherent and less impairing than prohibition.\n\nDEFINITIONS: Must be objective (processing class, nutrient thresholds) to survive lobbying fog.\n\nRECOMMEND: ADOPT ad ban + disclosure + tax skew; publish definition schedule; enforce digital and youth channels first."
+      },
+      "council": "Council: adopt; definition schedule to Parliament within 90 days of demo enactment.",
+      "outcome": "Adopted. Ops T-DEMO-041."
+    },
+    {
+      "id": "dec-borders",
+      "title": "Capacity-capped skilled intake; removals priority; citizens-first security screen",
+      "status": "adopted",
+      "org_id": "borders",
+      "date": "2026-demo",
+      "signatory": "Minister of Immigration & Borders (demo)",
+      "official_reasons": "Intake tracks housing, hospitals, wages, and security capacity. Prefer high skill. Asylum is not a mass loophole. Violent non-citizens removed immediately. UDL applies: residual risk to Canadian citizens fails the citizen test.",
+      "udl": {
+        "citizen_test": "Protect wages, housing, hospital access, and physical security of citizens.",
+        "steelman_for": "Unlimited intake under scarcity is arithmetic fraud. Security and cohesion are public goods.",
+        "steelman_against": "Labour shortages; humanitarian duties; aging demographics; international reputation.",
+        "data_grade": "A on capacity constraints; B on skill-mix design.",
+        "foreign_interest": "Source-country pressure to export surplus risk — refuse when citizen risk high.",
+        "history": "Rapid population via temporary streams without housing failed service levels."
+      },
+      "ai": {
+        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "prompt": "UDL on Canadian immigration levels under housing/hospital/wage constraints. Include security screens for conflict-origin cohorts with documented violence risk. No fashion language. Recommend rules.",
+        "analysis": "CAPACITY is a hard constraint: if housing completions and hospital seats do not rise, intake must fall — identity of applicants does not repeal arithmetic.\n\nSECURITY: Origin conflict + hostile doctrine patterns raise expected risk; screening and caps are rational, not theatre.\n\nRECOMMEND: ADOPT formula-tied levels, skill preference, fast removals for violent non-citizens, public capacity dashboard."
+      },
+      "council": "Council: adopt formula; publish dashboard quarterly.",
+      "outcome": "Adopted. Ops T-DEMO-050."
+    },
+    {
+      "id": "dec-waste-reject",
+      "title": "REJECT: Renew failed consultant mega-contract (no KPI movement)",
+      "status": "rejected",
+      "org_id": "finance",
+      "date": "2026-demo",
+      "signatory": "President of Treasury Board (demo)",
+      "official_reasons": "Prior spend of similar scope produced no movement on the named KPI. Ledger shows dollars to the same vendor class. Renewing is sunk-cost theatre. Reject; reallocate or save.",
+      "udl": {
+        "citizen_test": "Fail — no evidence citizens get safer/smarter/stronger/richer from renewal.",
+        "steelman_for": "Switching costs; vendor continuity; political embarrassment if cancelled.",
+        "steelman_against": "History of zero KPI movement; opportunity cost; Open State rules require kill.",
+        "data_grade": "A on prior failure (ledger + KPI).",
+        "foreign_interest": "Vendor may be multinational — irrelevant if value absent.",
+        "history": "Same program class failed two evaluation cycles."
+      },
+      "ai": {
+        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "prompt": "UDL on renewing a multi-year management consulting program after two cycles with flat KPIs and full Trace history. Recommend adopt/reject. No concern for ministerial face-saving.",
+        "analysis": "IF prior $ did not move KPI and mechanism is unchanged, THEN expected value of renewal ≈ 0 under rational policy.\n\nFace-saving is not a citizen outcome.\n\nRECOMMEND: REJECT. Publish kill. Open waste bounty if citizens surface related shells."
+      },
+      "council": "Council: reject unanimous on fiscal grounds.",
+      "outcome": "Rejected. Funds returned to surplus path / tax room. Example for citizen bounty education."
+    }
+  ]
+}

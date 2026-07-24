@@ -80,13 +80,31 @@ Sequence: disclosure first → then tax tiers.
 
 ## 6. Harm-tiered substances
 
+Ages follow **harm and developing-brain evidence**, not fashion.
+
 | Age | Substances |
 |-----|------------|
-| **25** | Alcohol, nicotine, cannabis; **LSD, MDMA, ketamine** (extreme purity, unit dose, limits) |
-| **21** | Psilocybin mushrooms; **coca leaf only** (not cocaine) |
-| Illegal | Street cocaine, fentanyl, mystery analogues as party supply |
+| **25+** | Alcohol; **smoked / vaped nicotine**; cannabis; **LSD, MDMA, ketamine** (extreme purity, unit dose, purchase limits, tracked legal supply) |
+| **21+** | **Psilocybin** (regulated); **smokeless tobacco**; **coca leaf only** (not cocaine) |
+| Illegal as party supply | Street cocaine, fentanyl, mystery analogues |
 
-Purity, purchase limits, no youth ads, tracked legal supply. Medical tracks separate.
+No youth advertising. Medical tracks under physician authority remain separate.
+
+### Psilocybin (major reform)
+
+**Decision under UDL:** regulated adult access at **21+**, not prohibition theatre.
+
+| Fact pattern (careful) | Policy consequence |
+|------------------------|-------------------|
+| Dependence and overdose risk far below alcohol and many pharmaceuticals **[VERIFY primary literature]** | Do not treat as alcohol-class vice at 25 by default |
+| Clinical and observational evidence of benefit in depression, end-of-life distress, addiction pathways in supervised contexts **[VERIFY; not a cure-all claim]** | Allow lawful, purity-controlled access; support medical pathways |
+| Contaminated black market harms users | Legal tracked supply beats mystery powder |
+
+Not a free-for-all festival pitch: dose limits, purity standards, no ads to youth, clear impaired-driving and workplace safety rules.
+
+### Combustible smoking & drinking
+
+**Raise legal age for alcohol and smoked/vaped nicotine to 25** — same band as other high-harm recreational intoxicants. Smokeless tobacco allowed from 21 under the lower-harm tier (still no youth ads).
 
 ### Pregnancy — zero tolerance
 
@@ -113,6 +131,21 @@ Prescribed medical treatment under physician authority remains lawful. Cessation
 ## 8. Health Covenant link
 
 Lifestyle and food policy reduce load so **catastrophic citizen insurance** stays solvent. Covenant: adults hold baseline health for free serious care; kids: fitness (NYFS) + real food duty on families.
+
+---
+
+## 8b. Children’s clothing & materials (endocrine care)
+
+**Decision:** Children’s clothing and textiles in retail and public procurement move toward **organic / natural-fibre standards** (and restricted finishes) where exposure risk to developing endocrine systems is material.
+
+| Rule | Detail |
+|------|--------|
+| Scope | Garments marketed for children; school/public procurement preference |
+| Goal | Cut unnecessary chemical load on developing bodies (hormones, skin) |
+| Phase | Publish allowed-fibre / restricted-finish list; phase-in so supply can adjust |
+| Evidence | Prefer measurable residue and hazard classes over slogans **[VERIFY science as lists are written]** |
+
+Pairs with real-food policy: protect kids’ biology first.
 
 ---
 

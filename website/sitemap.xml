@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.mapleleafparty.ca/open/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.mapleleafparty.ca/about/</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.mapleleafparty.ca/about/"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.mapleleafparty.ca/fr/about/"/>

@@ -247,8 +247,22 @@ Concrete statutes remain for counsel and Parliament; UDL forces the **argument**
 | **AI State on Maple Compute** | Stress-test logic, mine ledger history, flag foreign/data risks at scale |
 | **Human Council of Logic & Integrity** | Challenge AI + ministry; veto reckless automation (`08`) |
 | **Named minister / deputy** | Legal accountability |
-| **Public** | Read UDL Records; file bugs via Citizen Issues (`16`) |
+| **Public** | Read full **Decision Packages** (below); file bugs / claim waste bounties (`16`) |
 | **Parliament** | Final law; cannot skip UDL for material bills under Maple rules |
+
+### Public Decision Package (what citizens see)
+
+For each material decision, the open government record includes:
+
+1. **Outcome** — adopted / rejected / pilot  
+2. **Official reasons** — signed by the responsible minister or official  
+3. **UDL record** — citizen test, steelman for/against, data grades, foreign-interest checks  
+4. **AI analysis** — truth-seeking, **uncensored by political fashion** (facts, logic, history; not feelings pandering)  
+5. **Prompts** — what was asked of the AI for key runs  
+6. **Human Council** note / dissent  
+7. **Trace links** — where money moves  
+
+Demo of this package: public site **Open Government Explorer** (`website/open/`).
 
 ---
 

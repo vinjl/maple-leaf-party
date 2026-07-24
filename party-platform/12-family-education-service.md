@@ -60,17 +60,28 @@ See `14-maple-seed-tree.md`. RESP replaced. Every citizen child a capital path.
 
 ---
 
-## 6. National Service Year (NSY)
+## 6. National Service Year (NSY) — replaces grade 10
 
 | Element | Design |
 |---------|--------|
-| Concept | Replace/fuse grade-10 year with **training + education** — **no combat deployment** |
-| Content | Fitness, first aid, emergency response, civic knowledge, discipline, basic fieldcraft |
-| Credits | Diploma credits (civics, PE, leadership, practical STEM) |
-| Alternative | Civilian national service (disaster, conservation, hospitals) |
-| Phase | (1) Voluntary pilot with incentives → (2) provincial compact → (3) mandate only if proven **[VERIFY Charter]** |
+| **Decision** | **Mandatory** national service year **replaces grade 10** for eligible youth |
+| Product | Military-style **training + education** — **not** combat deployment as the purpose |
+| Content | Fitness, first aid, emergency response, civic knowledge, discipline, fieldcraft, trust under standards |
+| **Sex separation** | **Mostly male / female training streams** — cut dating drama and distraction; train hard; shared standards of conduct |
+| Credits | Diploma credits so **grade 11–12 and post-secondary continue** after the year |
+| Alternative track | Limited civilian national service (disaster, conservation, hospitals) where medical or other lawful exception applies |
+| Discipline | Real consequences for breach — not soft school theatre |
+| Charter | Structure carefully; phase and counsel **[VERIFY Charter / provincial education power]** |
 
-**Do not launch** with “force all teens into boot camp” as headline. Lead with competence and adulthood.
+### Why before grade 11–12 (logic)
+
+1. **Habit window** — mid-teens is when routines harden. Fix sleep, fitness, punctuality, and impulse control *before* the years that decide university and trades.  
+2. **Boys especially** — peak hormones + all-day classroom sitting fails many; channel full physicality into training instead of restless failure.  
+3. **Daily structure** — early rise, bed made, train, standards, trust with serious responsibility → a cohort that keeps time and finishes work.  
+4. **Nation-wide order** — military-grade accountability cuts chaos habits harder than detention slips; 11–12 then run on a stronger baseline.  
+5. **Does not sacrifice advanced school** — it *prepares* students to use grade 11–12 and post-secondary instead of arriving sabotaged by bad habits.
+
+**Public honesty:** This is a major intervention. Publish UDL records, pilots, and kill criteria. Do not sell it as a summer camp.
 
 ---
 

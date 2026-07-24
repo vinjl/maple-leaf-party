@@ -36,7 +36,24 @@ MCIP is the national **bug tracker**: issues, suggestions, fraud docket, maintai
 | Triage SLA | Days, not months (published) |
 | CODEOWNERS | Named official per process |
 | AI State | Cluster dupes, draft fixes; **human decides** |
-| Bounties | Pay for confirmed material fraud/waste |
+| Bounties | Pay citizens when verified waste/fraud **cuts real tax spend** (see §3b) |
+
+---
+
+## 3b. Public waste & fraud bounty (citizen rewards)
+
+Encourage the whole country to fix the machine — not wait four years for a do-nothing term.
+
+| Rule | Detail |
+|------|--------|
+| **Who** | Verified Canadian citizens |
+| **What** | Waste, fraud, ghost programs, sole-source abuse, failed spend — tied to Trace / ledger where possible |
+| **Pay when** | Finding is **verified** and produces a **measurable reduction** in tax-dollar use (clawback, cancel, redesign, stop-pay) |
+| **Scale** | Reward **scales with verified fiscal impact** (published tiers or capped % of recovered/saved) |
+| **Protect** | Lawful whistleblowing path; penalties for malicious false claims |
+| **Publish** | Paid bounties and savings on a public scoreboard |
+
+Software/security bounties (ledger, election tooling) remain under `09` SECURITY rules; this section is the **fiscal impact** path for ordinary citizens.
 
 ---
 
