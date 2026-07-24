@@ -28,9 +28,23 @@ Everything else — civilian ministries, tax, health admin, immigration admin, o
 > **If it is a non-exempt government dollar — including every benefit payment — a citizen can audit it — 100%.**  
 > **Individual recipients appear only as anonymized public data; dollars and programs never go dark.**  
 > **If it is a non-exempt government process, a citizen can see what it is, who owns it, how long it takes, what it costs, and where it sits (privacy-tiered) — 100%.**  
-> **Military ops and secret police ops stay secret. Nothing else gets to hide.**
+> **Military ops and secret police ops stay secret. Nothing else gets to hide.**  
+> **Any public dollar requested to leave Canada faces public analysis and a Decision Package before it clears.**
 
 Not annual PDFs. Not ATIP in 18 months. **Continuous, machine-readable, ledger-anchored.**
+
+### Outbound public dollars (leave Canada)
+
+Any request to send public money abroad (aid, grant, contract, intergovernmental transfer, subscription, or payment to a foreign payee) must, before clearance:
+
+| Step | Requirement |
+|------|-------------|
+| 1 | Full Trace draft and foreign payee identity class |
+| 2 | **Public analysis** published (who benefits, Canadian citizen interest, cost, alternatives, foreign-interest check) |
+| 3 | **Decision Package** under Universal Decision Logic (`20`) |
+| 4 | Named official sign-off; no quiet offshore send |
+
+Classified military/intel ops remain under carve-out rules. Ordinary foreign payments do not hide as “diplomacy convenience.”
 
 ---
 

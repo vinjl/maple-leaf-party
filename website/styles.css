@@ -3909,3 +3909,13 @@ body.nav-open {
 .chamber-side .open-panel {
   max-width: none;
 }
+
+/* Home open-gov diagrams: a bit more air */
+.home-diagram {
+  margin: 1.35rem 0 0.85rem;
+  max-width: 42rem;
+}
+
+.home-diagram + p {
+  max-width: 40rem;
+}
