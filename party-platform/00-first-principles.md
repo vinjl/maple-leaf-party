@@ -10,6 +10,8 @@
 
 The Maple Leaf exists to govern Canada by **maximum logic in the national interest**: the durable welfare, security, prosperity, and self-determination of **Canadian citizens**, under evidence, incentives, and the constraints of reality.
 
+**Headliner:** [Universal Decision Logic](20-universal-decision-logic.md) — ultimate governance. Every material decision is made and tested the same way: extreme logic, full steelman (all spectrum extremes + history), replicable data, world-leading truth-seeking AI under a human council, **citizens first**.
+
 We are not a culture-war cosplay party, a corporate lobby vehicle, or a global charity with a flag. We are a **fiduciary of the citizen body**.
 
 ---

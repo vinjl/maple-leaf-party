@@ -2,13 +2,13 @@
 
 **Love & Logic for Canada**
 
-Open, logic-based government design for **Canadian citizens first** — safer, smarter, stronger, richer lives.
+**Ultimate governance:** every material decision under [Universal Decision Logic](party-platform/20-universal-decision-logic.md) — extreme logic, full steelman, truth-seeking AI under a human council, **Canadian citizens first**.
 
 | Product | Path | Audience |
 |---------|------|----------|
-| **Public website** | [`website/`](website/) | Citizens — who we are, the plan, join |
+| **Public website** | [`website/`](website/) · [How we decide](website/plan/index.html#logic) | Citizens — method, plan, join |
 | **Open government model** | [`government/`](government/) | Full branches & ministries as open source |
-| **Policy source** | [`party-platform/`](party-platform/) | Laws, tax, health, borders, projections |
+| **Policy source** | [`party-platform/`](party-platform/) | **UDL headliner** + laws, tax, health, borders |
 
 > **Status:** Living draft. **Not** the legal Government of Canada. **Not yet** registered with Elections Canada.
 

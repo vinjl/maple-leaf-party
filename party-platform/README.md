@@ -1,10 +1,18 @@
 # Party Platform — The Maple Leaf
 
-**Version:** 1.2 framework pack  
-**Standard:** Logic-based government · citizens first · fully auditable state · extreme decision logic  
-**Public site:** [`../website/`](../website/)
+**Version:** 1.3 framework pack  
+**Standard:** Ultimate governance via Universal Decision Logic · citizens first · auditable state  
+**Public site:** [`../website/`](../website/) · **Headliner:** [plan/#logic](../website/plan/index.html#logic)
 
 ## Read order
+
+### Start here (headliner)
+
+| # | File | Content |
+|---|------|---------|
+| **20** | **[20-universal-decision-logic.md](20-universal-decision-logic.md)** | **How every decision is made — ultimate governance** |
+| 8 | [08-ai-state.md](08-ai-state.md) | Extreme compute + Human Council that runs UDL at scale |
+| 0 | [00-first-principles.md](00-first-principles.md) | Non-negotiables |
 
 ### Core OS (00–09)
 
@@ -35,12 +43,6 @@
 | 17 | [17-corporate-tax-canada-first.md](17-corporate-tax-canada-first.md) | MDRT + HQ magnet |
 | 18 | [18-borders-immigration.md](18-borders-immigration.md) | Secure borders, skill, law over hostile doctrine |
 | 19 | [19-national-projections.md](19-national-projections.md) | Deficit → surplus, CAD, second-order effects |
-
-### Method (20)
-
-| # | File | Content |
-|---|------|---------|
-| 20 | [20-universal-decision-logic.md](20-universal-decision-logic.md) | **Bulletproof logic for every government decision** |
 
 ### Ops
 

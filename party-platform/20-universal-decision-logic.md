@@ -1,26 +1,37 @@
 # The Maple Leaf — Universal Decision Logic (UDL)
 
-**Version:** 1.0  
-**Status:** Framework draft — **flagship governing method**  
+**Version:** 1.1  
+**Status:** **HEADLINER** — ultimate governance method  
 **Depends on:** `00-first-principles.md`, `01-governing-doctrine.md`, `05-open-state-architecture.md`, `08-ai-state.md`  
-**Purpose:** Make every material government decision **bulletproof under extreme logic** — immune to fashion, feelings theatre, irreplicable studies, and foreign or domestic manipulation.
+**Public face:** `website/plan/#logic` · `website/` hero  
+
+**Purpose:** This is **how every material government decision is made and tested** — not a side paper. Ultimate governance: extreme logic, full steelman of every decision type, all political-spectrum extremes and history in the room, world-leading truth-seeking AI for deep analysis, human council over the machines, citizens first.
 
 ---
 
-## 1. Thesis
+## 1. Thesis — ultimate governance
 
 Open books without rigorous reasoning are a spreadsheet of noise.  
-Reasoning without open books is sophistry.
+Reasoning without open books is sophistry.  
+Power without a published method is appetite.
 
-The Maple Leaf requires both:
+The Maple Leaf’s **headliner** is not a single program. It is the **method of rule**:
 
-1. **Full auditability** of money and process (Open State)  
-2. **Universal Decision Logic (UDL)** — the same extreme, ideology-blind method applied to **every** bill, regulation, program, hire, grant, procurement, border rule, and major executive act  
+1. **Universal Decision Logic (UDL)** — the same extreme, ideology-blind battery on **every** bill, regulation, program, hire, grant, procurement, border rule, and major executive act  
+2. **Full auditability** of money and process (Open State) so the method can be re-checked  
+3. **World-leading AI** on the Maple Extreme Compute Grid — unrestricted by fashion filters; truth-seeking deep analysis of all key decisions (`08`)  
+4. **Human Council of Logic & Integrity** — machines propose and detect; humans dispose and answer  
 
-> **A decision that cannot survive UDL is not ready to spend citizen blood, time, or money.**
+> **A decision that cannot survive UDL is not ready to spend citizen blood, time, or money.**  
+> **This is how the state thinks — every time.**
 
-AI State (`08`) runs UDL at scale on world-class national and provincial compute.  
-A **Human Council** remains the final gate on AI recommendations (`08` § Human Council).
+### Steelmans by design
+
+Every decision type is stress-tested with the **strongest case for** and the **strongest case against**, drawn without favour from **every end of the political spectrum**, and from **history**: what was tried, what failed, what repeated, who paid. No one-side theatre. No banned questions. No sacred cows.
+
+### AI that seeks truth
+
+Key decisions receive deep analysis from **frontier, multi-vendor AI** on national and provincial extreme supercomputers — analysis **uncensored by political fashion**: no filter that hides risk, doctrine, fiscal failure, or foreign interest to protect a narrative. “Uncensored” means **truth-seeking**, not lawless. Criminal law, privacy of private persons, and classified carve-outs still bind. Social-credit speech scoring is banned.
 
 ---
 

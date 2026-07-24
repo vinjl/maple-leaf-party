@@ -16,7 +16,7 @@ Every public dollar is on a ledger. Supercomputers and AI hunt waste and funny b
 
 ## Elevator (10 seconds)
 
-**Citizens first. Open government. Bulletproof logic. AI under humans. Hard CAD.**
+**Ultimate governance: every decision under extreme logic. Citizens first. AI under humans.**
 
 ---
 

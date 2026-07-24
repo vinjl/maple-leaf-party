@@ -779,6 +779,17 @@ body.nav-open {
     max(clamp(0.85rem, 4vw, 3.5rem), env(safe-area-inset-left, 0px));
 }
 
+/* Plan section subheads under major pillars */
+.plan-subhead {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin: 1.35rem 0 0.55rem;
+}
+
 .hero {
   min-height: min(calc(100dvh - 6.5rem), 42rem);
   display: flex;
