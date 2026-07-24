@@ -1,0 +1,21 @@
+{
+  "name": "The Maple Leaf Party of Canada",
+  "short_name": "Maple Leaf",
+  "description": "Love & Logic for Canada. Open-source government, tax reform, healthcare merit, food reform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f1eb",
+  "theme_color": "#4a2118",
+  "lang": "en-CA",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["politics", "news"]
+}

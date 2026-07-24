@@ -1,0 +1,6 @@
+# The Maple Leaf Party of Canada
+User-agent: *
+Allow: /
+
+# Prefer canonical hosts when live
+Sitemap: https://themapleleaf.ca/sitemap.xml

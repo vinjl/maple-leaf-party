@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Maple Leaf Party of Canada</title>
+    <link>https://themapleleaf.ca/</link>
+    <description>Love &amp; Logic for Canada — platform updates from The Maple Leaf Party.</description>
+    <language>en-ca</language>
+    <atom:link href="https://themapleleaf.ca/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Complete Plan — public draft</title>
+      <link>https://themapleleaf.ca/#plan</link>
+      <guid isPermaLink="true">https://themapleleaf.ca/#plan</guid>
+      <description>Open-source government, healthcare merit, tax reform (3 kids + married/common-law = zero income tax for both parents), food reform, merit, and vice policy.</description>
+      <pubDate>Wed, 23 Jul 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
