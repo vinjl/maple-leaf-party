@@ -7,4 +7,4 @@ Location: Canada
 Standards: HTML5, CSS3, progressive enhancement
 Languages: en-CA, fr-CA
 Components: Open plan, bilingual, static-first
-Doctrines: Love & Logic for Canada · Government you can audit yourself
+Doctrines: Logic, with love for Canada · Government you can audit yourself

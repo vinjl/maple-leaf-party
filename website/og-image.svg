@@ -40,7 +40,7 @@
   <rect width="700" height="630" fill="url(#veil)"/>
 
   <!-- Type (system fallbacks; PNG embeds Syne / Outfit / Newsreader) -->
-  <text x="72" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" font-weight="300" fill="#8a482a">Love &amp; Logic for Canada</text>
+  <text x="72" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" font-weight="300" fill="#8a482a">Logic, with love for Canada</text>
   <text x="72" y="248" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="68" letter-spacing="-2.4" fill="#4a2118">The Maple Leaf</text>
   <text x="72" y="296" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="22" letter-spacing="6" fill="#6b3224">PARTY OF CANADA</text>
   <text x="72" y="330" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="16" letter-spacing="3.5" fill="#8a7020">A FEDERAL POLITICAL PARTY</text>
