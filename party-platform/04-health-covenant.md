@@ -33,7 +33,24 @@ Directional planning band used in Maple projections (`19-national-projections.md
 | **15–25%+** of system load | Attributable to preventable lifestyle disease (order-of-magnitude, not a finished actuarial table) |
 | **Tens of billions $/year** | Fiscal room if that load falls (plus second-order disability and productivity gains) |
 
-**Moral failure of the status quo:** people who keep effort (train, eat real food, stay off the heavy bottle and smoke) are taxed to fund the optional wreckage of those who will not try. That punishes health and rewards freeloading.
+**Moral failure of the status quo:** people who keep effort (train, eat real food, stay off the heavy bottle and smoke) are taxed to fund the optional wreckage of those who will not try. That punishes health and rewards freeloading. It is unfair for the neighbour who exercises daily and barely uses the system to pay the preventable bill of people who refuse basic responsibility after the brain is fully developed.
+
+### Age 25 is the responsibility line
+
+| Band | Rule | Why |
+|------|------|-----|
+| **Under 25** | Public cover **free regardless of lifestyle** | Brain still developing; not yet fully adult agency over long-horizon habits |
+| **25+** | Free catastrophic pool only with **verified health effort** (medical exceptions) | Adult accountability for preventable disease risk |
+| **Always** | Emergency stabilization | No dying in the street for a covenant fail |
+
+### Private care as competence engine
+
+Shrinking open-ended public freeloading does not abandon care. It **opens room for private delivery** on non-emergency and non-covenant demand:
+
+- Private providers **can fail** and cannot rely on automatic taxpayer bailouts, so they must be competent on quality, speed, and price.  
+- Public monopolies are too often incentivized by **funding and political rescue**, not by patient results.  
+- Tax cuts from a lighter preventable load let citizens **buy insurance, private care, or pay when needed**.  
+- The public still **pays the serious bill** when the adult has shown good health habits (covenant pass) or is under 25.
 
 Arithmetic: you cannot be **Switzerland on taxes** and **all-you-can-eat free medicine for everyone and everything** forever.
 
