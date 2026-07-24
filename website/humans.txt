@@ -1,10 +1,10 @@
 /* TEAM */
 Party: The Maple Leaf Party of Canada
-Contact: contact@themapleleaf.ca
+Contact: contact@mapleleafparty.ca
 Location: Canada
 
 /* SITE */
 Standards: HTML5, CSS3, progressive enhancement
 Languages: en-CA, fr-CA
-Components: Open Plan, bilingual, static-first
+Components: Open plan, bilingual, static-first
 Doctrines: Love & Logic for Canada · Government you can audit yourself

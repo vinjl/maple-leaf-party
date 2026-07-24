@@ -1,26 +1,27 @@
-# Structure — website + open government
+# Structure
 
 ## Dual product
 
-| Path | Deployed to Cloudflare? | Role |
-|------|-------------------------|------|
+| Path | Cloudflare Pages? | Role |
+|------|-------------------|------|
 | `website/` | **Yes** (only this) | Fast public site |
 | `government/` | No | Open model of Government of Canada |
-| `party-platform/` | No | Full policy / law design depth |
-| `projects/` | No | Party launch ops |
-| `legal/` | No | Charter research tracks |
+| `party-platform/` | No | Full policy / law design |
+| `projects/` | No | Party foundation & legal pathways |
+| `legal/` | No | Legal research notes |
+| `ideas/` | No | Framing notes |
 
-## Rule
+## Deploy rule
 
-Never set Pages root to repo root. Never bulk-copy `government/` into `website/`.  
-Site summarizes; GitHub holds every detail.
+Never set Pages root to the repo root. Never bulk-copy `government/` into `website/`.  
+The site summarizes; GitHub holds depth.
 
-## Ministry → platform links
+## Ministry → platform
 
-Each `government/executive/*/README.md` points at the numbered `party-platform/NN-*.md` files.
+Each `government/executive/*/README.md` links to the matching `party-platform/NN-*.md` modules.
 
-## Expanding a ministry
+## Expanding policy
 
-1. Deepen `party-platform/` markdown.  
-2. Add ops/legislation notes under `government/executive/<ministry>/`.  
-3. Keep `website/plan/` as a short summary + link to GitHub.
+1. Deepen markdown under `party-platform/`.  
+2. Add ministry notes under `government/executive/<ministry>/`.  
+3. Keep `website/plan/` short; link to GitHub for detail.

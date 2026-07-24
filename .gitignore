@@ -33,6 +33,15 @@ dist/
 *.log
 npm-debug.log*
 
-# Local only
+# Local / personal (never publish)
 .local/
 tmp/
+notes/
+academic/
+AGENTS.md
+HANDOFF.md
+STATUS.md
+PROMPTS.md
+CONTEXT.md
+DECISIONS.md
+PLAN.md

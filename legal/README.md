@@ -1,9 +1,15 @@
-# Legal pathways
+# Legal research
 
-Local research tracks (not vendored into this repo):
+Notes and tracks related to Maple Leaf policy and law design.
 
-- Alcohol lawsuit materials (local path on author machine)
-- Charter 25-law application (local path on author machine)
+## In this repository
 
-In-repo folders: `charter-applications/`, `research/`.
+- Charter and policy arguments appear in `party-platform/` (especially health, substances, and free speech modules).
+- Launch / registration research: `projects/party-foundation/registration-research.md`.
+- Youth substance / Charter pathway notes: `projects/charter-pathway-25-law/`.
 
+## Not in this repository
+
+Detailed litigation files, filings, and privileged counsel materials stay offline and are not published here.
+
+**This folder is research context only — not legal advice.**
