@@ -116,7 +116,12 @@
 
   if (buttons.length) setScope("federal");
 
-  /* —— Join interest form —— */
+  /*
+   * Join / volunteer forms — honest path only.
+   * This site has no backend. Submit opens the visitor's mail app to
+   * contact@mapleleafparty.ca with a prefilled body. Nothing is stored
+   * or claimed "received" on this page.
+   */
   const form = document.getElementById("joinForm");
   const note = document.getElementById("joinNote");
   if (form) {
@@ -133,15 +138,62 @@
         }
         return;
       }
+
+      const kind = form.dataset.kind || "join";
+      const postal = form.querySelector("#join-postal");
+      const skills = form.querySelector("#vol-skills");
+      const region = form.querySelector("#vol-region");
+      const updates = form.querySelector("#join-updates");
+
+      const subject =
+        lang === "fr"
+          ? kind === "volunteer"
+            ? "Feuille d’érable — offre de bénévolat"
+            : "Feuille d’érable — intérêt à joindre"
+          : kind === "volunteer"
+            ? "Maple Leaf — volunteer offer"
+            : "Maple Leaf — join interest";
+
+      const lines =
+        lang === "fr"
+          ? [
+              `Nom: ${name.value.trim()}`,
+              `Courriel: ${email.value.trim()}`,
+              postal?.value?.trim() ? `Code postal: ${postal.value.trim()}` : null,
+              skills?.value?.trim() ? `Compétences: ${skills.value.trim()}` : null,
+              region?.value?.trim() ? `Région: ${region.value.trim()}` : null,
+              updates
+                ? `Mises à jour: ${updates.checked ? "oui" : "non"}`
+                : null,
+              "",
+              "(Envoyé depuis le site. Rien n’est stocké sur le site — seul ce courriel compte.)",
+            ]
+          : [
+              `Name: ${name.value.trim()}`,
+              `Email: ${email.value.trim()}`,
+              postal?.value?.trim() ? `Postal code: ${postal.value.trim()}` : null,
+              skills?.value?.trim() ? `Skills: ${skills.value.trim()}` : null,
+              region?.value?.trim() ? `Region: ${region.value.trim()}` : null,
+              updates
+                ? `Updates: ${updates.checked ? "yes" : "no"}`
+                : null,
+              "",
+              "(Sent from the website. Nothing is stored on the site — only this email counts.)",
+            ];
+
+      const body = lines.filter((line) => line != null).join("\n");
+      const href = `mailto:contact@mapleleafparty.ca?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(body)}`;
+
       if (note) {
         note.textContent =
           lang === "fr"
-            ? "Merci. Votre nom est reçu. Nous vous écrirons quand le chemin sera prêt."
-            : "Thank you. Your name is received. We will write when the path is ready.";
+            ? "Votre application de courriel devrait s’ouvrir. Envoyez le message pour qu’il nous parvienne. Rien n’est enregistré sur ce site."
+            : "Your email app should open. Send the message so it reaches us. Nothing is stored on this site.";
       }
-      form.reset();
-      const updates = form.querySelector("#join-updates");
-      if (updates) updates.checked = true;
+
+      window.location.href = href;
     });
   }
 })();

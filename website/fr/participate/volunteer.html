@@ -136,13 +136,16 @@
   <div class="nav-backdrop" id="navBackdrop" hidden></div>
   <main id="main" class="stage">
 <article class="legal-page content-page"><h1>Offrir votre art</h1>
-     <form class="join-form" id="joinForm" action="#" method="post" novalidate>
+     <p>Ce site n’enregistre pas vos coordonnées. Envoyer ouvre votre courriel vers <a href="mailto:contact@mapleleafparty.ca">contact@mapleleafparty.ca</a>.</p>
+     <form class="join-form" id="joinForm" data-kind="volunteer" action="#" method="post" novalidate>
        <div class="form-row"><label for="join-name">Nom</label><input id="join-name" name="name" required /></div>
        <div class="form-row"><label for="join-email">Courriel</label><input type="email" id="join-email" name="email" required /></div>
        <div class="form-row"><label for="vol-skills">Compétences</label><input id="vol-skills" name="skills" /></div>
-       <button type="submit" class="form-submit">Offrir mon aide</button>
-       <p class="form-note muted" id="joinNote">Nous vous écrirons avec soin — sans bruit inutile.</p>
-     </form></article>
+       <button type="submit" class="form-submit">Ouvrir le courriel pour offrir mon aide</button>
+       <p class="form-note muted" id="joinNote" role="status" aria-live="polite">Ouvre votre application de courriel. Rien n’est enregistré sur ce site.</p>
+     </form>
+     <p class="form-alt muted">Message simple : <a href="mailto:contact@mapleleafparty.ca?subject=Feuille%20d%E2%80%99%C3%A9rable%20%E2%80%94%20b%C3%A9n%C3%A9volat">contact@mapleleafparty.ca</a></p>
+     </article>
   </main>
   <footer class="site-footer">
     <div class="footer-inner">

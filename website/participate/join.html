@@ -143,10 +143,12 @@
 
       <p class="legal-updated">Join with a clear conscience</p>
       <p>
-        Leave your name. When membership is real under the law, you will hear it from us —
-        not from a hollow door.
+        This site does not store your name. Fill the fields below and your email app will open a message to
+        <a href="mailto:contact@mapleleafparty.ca">contact@mapleleafparty.ca</a>.
+        Only what you actually send reaches us. When lawful membership exists, we will write back from that inbox —
+        not from a hollow form.
       </p>
-      <form class="join-form" id="joinForm" action="#" method="post" novalidate>
+      <form class="join-form" id="joinForm" data-kind="join" action="#" method="post" novalidate>
         <div class="form-row">
           <label for="join-name">Full name</label>
           <input type="text" id="join-name" name="name" autocomplete="name" required placeholder="Your name" />
@@ -163,9 +165,10 @@
           <input type="checkbox" id="join-updates" name="updates" checked />
           <label for="join-updates">Write to me when the work advances</label>
         </div>
-        <button type="submit" class="form-submit">Join the Maple Leaf</button>
-        <p class="form-note muted" id="joinNote" role="status" aria-live="polite">You will hear from us with care — no noise, no throng of empty mail.</p>
+        <button type="submit" class="form-submit">Open email to join</button>
+        <p class="form-note muted" id="joinNote" role="status" aria-live="polite">Opens your mail app. Nothing is saved on this website.</p>
       </form>
+      <p class="form-alt muted">Prefer a plain message? <a href="mailto:contact@mapleleafparty.ca?subject=Maple%20Leaf%20%E2%80%94%20join%20interest">contact@mapleleafparty.ca</a></p>
     
     </article>
   </main>

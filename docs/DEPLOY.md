@@ -69,6 +69,7 @@ Hosted zone: `mapleleafparty.ca` (`Z03595963F5SKUVVNJK1X`)
 | Type  | Name | Value |
 |-------|------|--------|
 | CNAME | `www` | `mapleleafparty.pages.dev` |
+| A/AAAA alias | `@` (apex) | CloudFront `d2w40lxegfcox9.cloudfront.net` (301 → www) |
 
 ### Cloudflare Pages custom domain
 
@@ -90,18 +91,27 @@ aws route53domains get-domain-detail --domain-name mapleleafparty.ca --query 'Na
 curl -s "https://dns.google/resolve?name=www.mapleleafparty.ca&type=CNAME"
 curl -sI https://www.mapleleafparty.ca | head -5
 curl -sI https://mapleleafparty.pages.dev | head -5
+
+# Apex should 301 to www
+curl -sI https://mapleleafparty.ca | head -10
 ```
 
 ---
 
 ## Apex domain (`mapleleafparty.ca` without www)
 
-Cloudflare Pages only supports apex when the domain is a **Cloudflare DNS zone**. Route 53 cannot CNAME the root to `pages.dev`.
+Route 53 cannot CNAME the apex to `pages.dev`. **Implemented (2026-07-24):** HTTPS apex redirect via AWS only.
 
-| Choice | Result |
-|--------|--------|
-| **A. Stay on Route 53** | Use `https://www.mapleleafparty.ca` only |
-| **B. Apex + www** | Add domain in Cloudflare DNS; set registration NS to Cloudflare’s two nameservers (Route 53 → Registered domains → Edit name servers) |
+| Piece | Value |
+|-------|--------|
+| ACM cert (us-east-1) | `mapleleafparty.ca` (+ `www` SAN) |
+| CloudFront distribution | `E3BI3MNMJYSSF9` → `d2w40lxegfcox9.cloudfront.net` |
+| CloudFront Function | `mapleleafparty-apex-to-www` (viewer-request 301 → `https://www.mapleleafparty.ca` + path/query) |
+| Route 53 | Apex A + AAAA alias → that CloudFront domain |
+
+`www` stays on Cloudflare Pages. Apex only redirects; it does not host content.
+
+To tear down later: disable/delete the CloudFront distribution, remove apex A/AAAA, delete the function and ACM cert if unused.
 
 ---
 
@@ -109,7 +119,8 @@ Cloudflare Pages only supports apex when the domain is a **Cloudflare DNS zone**
 
 - [x] Registration nameservers = current hosted zone NS
 - [x] Hosted zone: `www` CNAME → `mapleleafparty.pages.dev`
-- [ ] Wait for `.ca` NS propagation (minutes to ~24h)
+- [x] Hosted zone: apex A/AAAA → CloudFront 301 → www
+- [ ] Wait for public DNS cache (minutes; rarely longer)
 - [ ] Cloudflare Pages: `www.mapleleafparty.ca` **Active**
 - [ ] NextDNS allowlist if needed
 - [ ] SEO meta uses `https://www.mapleleafparty.ca/...`

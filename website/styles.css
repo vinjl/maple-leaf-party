@@ -1950,6 +1950,13 @@ body.nav-open {
   background: rgba(255, 252, 248, 0.72);
 }
 
+.form-alt {
+  margin-top: 0.85rem;
+  max-width: 28rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
 .form-row {
   margin-bottom: 1rem;
 }
@@ -2713,15 +2720,33 @@ body.nav-open {
 .open-demo-banner {
   position: relative;
   z-index: 32;
-  background: var(--maple-deep);
-  color: rgba(255, 252, 248, 0.92);
+  background: #1a0f0c;
+  color: rgba(255, 252, 248, 0.95);
   text-align: center;
   font-family: var(--font-ui);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  padding: 0.45rem 1rem;
-  border-bottom: 1px solid rgba(201, 162, 39, 0.35);
+  letter-spacing: 0.01em;
+  line-height: 1.45;
+  padding: 0.65rem 1.1rem;
+  border-bottom: 2px solid #c9a227;
+  box-shadow: 0 2px 0 rgba(201, 162, 39, 0.25);
+}
+
+.open-demo-banner strong {
+  color: #f0d78c;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.open-demo-banner a {
+  color: #f0d78c;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.open-demo-banner a:hover {
+  color: #fff8e7;
 }
 
 .open-shell {

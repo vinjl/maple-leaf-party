@@ -144,9 +144,11 @@
       <p class="legal-updated">Hands and craft</p>
       <p>
         Tell us what you can offer: the written word, code, translation, organizing, design, the law —
-        skill, not fashion.
+        skill, not fashion. This site does not store your details. Submit opens your email app to
+        <a href="mailto:contact@mapleleafparty.ca">contact@mapleleafparty.ca</a>.
+        Only the message you send is received.
       </p>
-      <form class="join-form" id="joinForm" action="#" method="post" novalidate>
+      <form class="join-form" id="joinForm" data-kind="volunteer" action="#" method="post" novalidate>
         <div class="form-row">
           <label for="join-name">Full name</label>
           <input type="text" id="join-name" name="name" autocomplete="name" required />
@@ -167,9 +169,10 @@
           <input type="checkbox" id="join-updates" name="updates" checked />
           <label for="join-updates">You may call on me for the work</label>
         </div>
-        <button type="submit" class="form-submit">Offer my help</button>
-        <p class="form-note muted" id="joinNote" role="status">We will answer when the path is ready.</p>
+        <button type="submit" class="form-submit">Open email to offer help</button>
+        <p class="form-note muted" id="joinNote" role="status" aria-live="polite">Opens your mail app. Nothing is saved on this website.</p>
       </form>
+      <p class="form-alt muted">Prefer a plain message? <a href="mailto:contact@mapleleafparty.ca?subject=Maple%20Leaf%20%E2%80%94%20volunteer%20offer">contact@mapleleafparty.ca</a></p>
     
     </article>
   </main>
