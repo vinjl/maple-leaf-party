@@ -26,7 +26,7 @@
 | 5 | [05-open-state-architecture.md](05-open-state-architecture.md) | Every $ + process on ledger |
 | 6 | [06-jurisdiction-map.md](06-jurisdiction-map.md) | Federalism |
 | 7 | [07-currency-resources.md](07-currency-resources.md) | Hard CAD, CRPF |
-| 8 | [08-analysis-oversight.md](08-analysis-oversight.md) | analysis of every function · **public analysis capacity** · named oversight |
+| 8 | [08-analysis-oversight.md](08-analysis-oversight.md) | Published analysis under named humans |
 | 9 | [09-gov-as-open-source.md](09-gov-as-open-source.md) | OSS government culture |
 
 ### Nation & people (10–19)
