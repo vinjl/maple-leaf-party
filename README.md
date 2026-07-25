@@ -19,7 +19,7 @@
 1. **How we decide** — [party-platform/20-universal-decision-logic.md](party-platform/20-universal-decision-logic.md)  
 2. **Open state** — [party-platform/05-open-state-architecture.md](party-platform/05-open-state-architecture.md)  
 3. **Citizen contract** — [party-platform/10-citizen-contract.md](party-platform/10-citizen-contract.md)  
-4. **Site** — open `website/` locally with any static server, or visit the live URL above  
+4. **Site** — visit [www.mapleleafparty.ca](https://www.mapleleafparty.ca), or open `website/` locally  
 
 Propose changes via issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -29,7 +29,7 @@ Propose changes via issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING
 
 ```
 maple-leaf-party/
-├── website/           # Public static site
+├── website/           # Public site files
 ├── government/        # Model of the state (ministries, branches)
 ├── party-platform/    # Policy design and decision method
 ├── projects/          # Registration research, pathways
@@ -37,8 +37,6 @@ maple-leaf-party/
 ├── CONTRIBUTING.md
 └── LICENSE
 ```
-
-Hosting, DNS, email, and ops runbooks are **not** in this repository (private ops only).
 
 ---
 

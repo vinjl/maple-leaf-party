@@ -2,10 +2,10 @@
 
 | Path | Role |
 |------|------|
-| `website/` | Public static site (HTML/CSS/JS) |
+| `website/` | Public site files |
 | `government/` | Open model of branches and ministries |
 | `party-platform/` | Policy modules and Universal Decision Logic |
 | `projects/` | Registration research and related pathways |
 | `legal/` | Legal research notes |
 
-**This repo is party content only.** Deploy, DNS, email, and security ops live in a **private** ops repository (not linked here).
+This repository is party content and design only.

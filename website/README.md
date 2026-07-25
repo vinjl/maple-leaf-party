@@ -8,5 +8,3 @@ Static files for [www.mapleleafparty.ca](https://www.mapleleafparty.ca).
 python3 -m http.server 8080
 # http://localhost:8080/
 ```
-
-Party content only. Deploy configuration is not documented in the public repository.
