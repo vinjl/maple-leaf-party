@@ -115,13 +115,22 @@ To tear down later: disable/delete the CloudFront distribution, remove apex A/AA
 
 ---
 
+## Email
+
+Inbound: ImprovMX → personal inbox. See **[EMAIL.md](./EMAIL.md)**.
+
+- [x] Route 53 MX + SPF + DMARC for ImprovMX
+- [ ] ImprovMX domain verified + aliases `contact@` / `press@` → your inbox
+
 ## Checklist
 
 - [x] Registration nameservers = current hosted zone NS
 - [x] Hosted zone: `www` CNAME → `mapleleafparty.pages.dev`
 - [x] Hosted zone: apex A/AAAA → CloudFront 301 → www
+- [x] Hosted zone: MX → ImprovMX (receive mail)
 - [ ] Wait for public DNS cache (minutes; rarely longer)
 - [ ] Cloudflare Pages: `www.mapleleafparty.ca` **Active**
 - [ ] NextDNS allowlist if needed
 - [ ] SEO meta uses `https://www.mapleleafparty.ca/...`
+- [ ] ImprovMX aliases live (see EMAIL.md)
 )
