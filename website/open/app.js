@@ -28,7 +28,8 @@
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
 
   function byId(list, id) {
     return (list || []).find((x) => x.id === id);
@@ -339,7 +340,7 @@
         <p class="open-lead">${esc(n.mandate || "")}</p>
         ${
           n.github
-            ? `<p><a class="action action-quiet" href="${esc(n.github)}" target="_blank" rel="noopener">GitHub design notes →</a></p>`
+            ? `<p><a class="action action-quiet" href="${esc(n.github)}" target="_blank" rel="noopener noreferrer">GitHub design notes →</a></p>`
             : ""
         }
         ${budgetHtml}
@@ -432,7 +433,7 @@
 
         <aside class="chamber-side">
           <div class="open-panel open-panel-ai">
-            <h2>AI view summary <span class="open-demo-tag">live demo</span></h2>
+            <h2>AI view summary <span class="open-demo-tag">browser demo</span></h2>
             <p class="open-note">${esc(c.ai_summary.udl_note)}</p>
             ${c.ai_summary.clusters
               .map(
@@ -455,7 +456,7 @@
               <li><strong>Logic and math</strong> still gate the Decision Package. Named humans still sign.</li>
             </ul>
             <p class="home-cta-line">
-              <a class="action action-quiet" href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">Propose on GitHub prototype →</a>
+              <a class="action action-quiet" href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener noreferrer">Propose on GitHub prototype →</a>
             </p>
             <p class="open-note">Live chamber access under Maple government is for verified Canadian citizens only.</p>
           </div>
@@ -499,9 +500,9 @@
             <p class="open-note">
               Want to change something?
               Today use the
-              <a href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener">GitHub prototype</a>.
+              <a href="https://github.com/vinjl/maple-leaf-party/issues/new/choose" target="_blank" rel="noopener noreferrer">GitHub prototype</a>.
               Under Maple government, proposals will need a verified Canadian citizen account on a national platform.
-              <a href="https://github.com/vinjl/maple-leaf-party/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">How to contribute</a>.
+              <a href="https://github.com/vinjl/maple-leaf-party/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">How to contribute</a>.
             </p>
           </header>
           ${
@@ -547,15 +548,15 @@
         <h2>Universal Decision Logic</h2>
         <dl class="open-dl">
           <dt>Citizen test</dt><dd>${esc(d.udl.citizen_test)}</dd>
-          <dt>Steelman — for</dt><dd>${esc(d.udl.steelman_for)}</dd>
-          <dt>Steelman — against</dt><dd>${esc(d.udl.steelman_against)}</dd>
+          <dt>Best case for</dt><dd>${esc(d.udl.steelman_for)}</dd>
+          <dt>Best case against</dt><dd>${esc(d.udl.steelman_against)}</dd>
           <dt>Data grade</dt><dd>${esc(d.udl.data_grade)}</dd>
           <dt>Foreign interest</dt><dd>${esc(d.udl.foreign_interest)}</dd>
           <dt>History</dt><dd>${esc(d.udl.history)}</dd>
         </dl>
       </section>
       <section class="open-panel open-panel-ai">
-        <h2>AI analysis <span class="open-demo-tag">uncensored · no fashion filter</span></h2>
+        <h2>AI analysis <span class="open-demo-tag">demo analysis · not live policy</span></h2>
         <p class="open-note">Model: ${esc(d.ai.model)}</p>
         <h3 class="open-sub">Prompt (logged)</h3>
         <pre class="open-pre">${esc(d.ai.prompt)}</pre>

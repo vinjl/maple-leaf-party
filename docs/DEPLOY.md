@@ -120,7 +120,11 @@ To tear down later: disable/delete the CloudFront distribution, remove apex A/AA
 Inbound: ImprovMX → personal inbox. See **[EMAIL.md](./EMAIL.md)**.
 
 - [x] Route 53 MX + SPF + DMARC for ImprovMX
-- [ ] ImprovMX domain verified + aliases `contact@` / `press@` → your inbox
+- [x] ImprovMX domain verified + aliases `contact@` / `press@` → inbox
+
+## Security headers
+
+Cloudflare Pages reads `website/_headers`. See **[SECURITY.md](./SECURITY.md)**.
 
 ## Checklist
 
