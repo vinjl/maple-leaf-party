@@ -1,3 +1,4 @@
 Contact: mailto:contact@mapleleafparty.ca
+Contact: mailto:press@mapleleafparty.ca
 Preferred-Languages: en, fr
 Canonical: https://www.mapleleafparty.ca/.well-known/security.txt

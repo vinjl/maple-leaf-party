@@ -1,6 +1,7 @@
 /* TEAM */
 Party: The Maple Leaf Party of Canada
 Contact: contact@mapleleafparty.ca
+Press: press@mapleleafparty.ca
 Location: Canada
 
 /* SITE */
