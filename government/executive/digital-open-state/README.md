@@ -2,7 +2,7 @@
 
 ## Mandate
 
-Public Treasury, Trace, open contracts, citizen bug tracker, **AI State Platform**, and the **Maple Extreme Compute Grid** (national flagship + provincial nodes) — so the whole non-exempt state can be watched, stress-tested, and lean.
+Public Treasury, Trace, open contracts, citizen bug tracker, **Published analysis Platform**, and the **public analysis capacity** (national flagship + provincial nodes) — so the whole non-exempt state can be watched, stress-tested, and lean.
 
 ## Citizens-first test
 
@@ -11,7 +11,7 @@ Does every program and dollar — and every material decision under Universal De
 ## Full design (read these)
 
 - [05-open-state-architecture.md](../../../party-platform/05-open-state-architecture.md)
-- [08-ai-state.md](../../../party-platform/08-ai-state.md) — AI State · extreme compute · Human Council  
+- [08-analysis-oversight.md](../../../party-platform/08-analysis-oversight.md) — Published analysis · extreme compute · named oversight  
 - [20-universal-decision-logic.md](../../../party-platform/20-universal-decision-logic.md) — bulletproof decision method  
 - [09-gov-as-open-source.md](../../../party-platform/09-gov-as-open-source.md)
 - [16-citizen-issues.md](../../../party-platform/16-citizen-issues.md)

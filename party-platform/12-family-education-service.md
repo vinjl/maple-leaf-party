@@ -26,9 +26,9 @@ See `14-maple-seed-tree.md`. RESP replaced. Every citizen child a capital path.
 
 ---
 
-## 3. AI for youth and students
+## 3. analysis for youth and students
 
-- Under 18 (citizen/PR student): subsidized/free accredited education AI  
+- Under 18 (citizen/PR student): subsidized/free accredited education analysis  
 - Post-secondary students: same while enrolled  
 - Privacy: no ad surveillance; Canadian data preference  
 - Funded partly by UPF/gambling-policy fiscal space  
@@ -40,7 +40,7 @@ See `14-maple-seed-tree.md`. RESP replaced. Every citizen child a capital path.
 | Track | Policy |
 |-------|--------|
 | AI-enhanced school | Federal tools + transfer incentives; provincial delivery |
-| Homeschool | Equal AI stipend, exam pathways, fitness test access; end hostility to competent home ed |
+| Homeschool | Equal analysis stipend, exam pathways, fitness test access; end hostility to competent home ed |
 | Gifted | In-person monitored ability tests (IQ / multi-g + achievement) → accelerated tracks, dual enroll, mentorship; retest windows; disability accommodations |
 
 ---
@@ -87,10 +87,10 @@ See `14-maple-seed-tree.md`. RESP replaced. Every citizen child a capital path.
 
 ## 7. Jurisdiction
 
-Education delivery: **provincial**. Federal: tax, transfers, national standards offers, Criminal Code interfaces, AI portal, CAF partnership for NSY.
+Education delivery: **provincial**. Federal: tax, transfers, national standards offers, Criminal Code interfaces, analysis portal, CAF partnership for NSY.
 
 ---
 
 ## 8. One-line
 
-> **Tax power for kids, Seed to Tree capital, AI tools, honest male/female fitness, gifted paths, and a training year that builds adults — not combat.**
+> **Tax power for kids, Seed to Tree capital, analysis tools, honest male/female fitness, gifted paths, and a training year that builds adults — not combat.**

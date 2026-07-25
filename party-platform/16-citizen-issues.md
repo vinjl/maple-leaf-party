@@ -35,7 +35,7 @@ MCIP is the national **bug tracker**: issues, suggestions, fraud docket, maintai
 | Domain review teams | Tax, benefits, procurement, etc. + **Fraud Cell** |
 | Triage SLA | Days, not months (published) |
 | CODEOWNERS | Named official per process |
-| AI State | Cluster dupes, draft fixes; **human decides** |
+| Published analysis | Cluster dupes, draft fixes; **human decides** |
 | Bounties | Pay citizens when verified waste/fraud **cuts real tax spend** (see §3b) |
 
 ---

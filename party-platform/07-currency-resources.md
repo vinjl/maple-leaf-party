@@ -3,7 +3,7 @@
 **Version:** 0.2  
 **Status:** Framework draft — **hard strong-dollar doctrine**  
 **Depends on:** `00-first-principles.md`, `01-governing-doctrine.md`, `03-capital-magnet-tax.md`  
-**Pairs with:** `05-open-state-architecture.md`, `08-ai-state.md`
+**Pairs with:** `05-open-state-architecture.md`, `08-analysis-oversight.md`
 
 ---
 
@@ -29,7 +29,7 @@ A currency is strong when the world **must hold it or wants to hold it**, and do
 | 4 | **Structural export power** | Energy, minerals, food, fertilizer, forestry at full cycle |
 | 5 | **Resource Prosperity Fund** | Windfalls → balance sheet, not binge bureaucracy |
 | 6 | **Capital magnet** | IDS + CSRCP → foreign demand for CAD assets (`03`) |
-| 7 | **Productivity & AI State** | Higher real output per worker (`08`) → real exchange support |
+| 7 | **Productivity & Published analysis** | Higher real output per worker (`08`) → real exchange support |
 | 8 | **Trust premium** | Open State / every public dollar on ledger (`05`) → lower risk premium |
 | 9 | **Rate competitiveness** | Serious country, not emergency-rate junkie; policy credibility |
 | 10 | **Strategic reserves posture** | Transparent reserve & fund policy; no panic politics |
@@ -134,7 +134,7 @@ Maximize US trade and volumes. CAD settlement is **not anti-US**; US buyers are 
 - Target regime: hard low band (policy draft direction: **≤2%**, with ambition toward **true price stability culture**, not “2% is a floor to inflate away debt”)  
 - Operational independence on instruments; Parliament sets the hard goal in statute  
 - **No** QE-as-lifestyle; **no** monetizing federal deficits  
-- Public reaction function; AI State can publish real-time inflation nowcasts for citizens (transparency, not BoC capture)
+- Public reaction function; Published analysis can publish real-time inflation nowcasts for citizens (transparency, not BoC capture)
 
 ### 4.2 Fiscal steel (non-optional partner)
 
@@ -216,13 +216,13 @@ From `03-capital-magnet-tax.md`:
 
 ---
 
-## 8. Productivity, AI, and trust (modern strong-currency factors)
+## 8. Productivity, analysis, and trust (modern strong-currency factors)
 
 Classic strong currencies also rest on **output and institutions**:
 
 | Factor | Maple tool |
 |--------|------------|
-| Productivity growth | AI State (`08`), permitting speed, skills-only immigration |
+| Productivity growth | Published analysis (`08`), permitting speed, skills-only immigration |
 | Institutional trust | Every public dollar on blockchain ledger (`05`) |
 | Rule of law | Contract enforcement; no surprise confiscation |
 | Deep local capital markets | Tax reform + CSRCP custody |
@@ -239,7 +239,7 @@ Classic strong currencies also rest on **output and institutions**:
 5. **CRPF** saves windfalls  
 6. **Trade surplus capacity** via full export infrastructure  
 7. **Capital inflows** of quality (not hot money only)  
-8. **High real productivity** (AI + projects)  
+8. **High real productivity** (analysis + projects)  
 9. **Low corruption risk premium** (Open State)  
 10. **Stable, predictable tax on capital** (Swiss-NA brand)  
 11. **Strong banking system** as global custody venue  
@@ -268,7 +268,7 @@ Classic strong currencies also rest on **output and institutions**:
 | Buyer pushback on CAD settlement | Phase-in; quality/reliability premium; finance tools in CAD |
 | Provincial resistance | Compact + tax/royalty carrots; federal project partnership |
 | Short-term export friction | Grandfather legacy; clear schedule |
-| Over-strong CAD hits some manufacturers | Productivity + AI + targeted transition — **not** permanent cheap-CAD addiction |
+| Over-strong CAD hits some manufacturers | Productivity + analysis + targeted transition — **not** permanent cheap-CAD addiction |
 | Commodity bust | CRPF smooths; diversified capital magnet |
 
 ---
@@ -301,4 +301,4 @@ Classic strong currencies also rest on **output and institutions**:
 
 ## 14. One-line summary
 
-> **Force the world to hold CAD to buy Canadian resources, refuse to inflate away the currency, save windfalls, attract capital, raise productivity with AI, and publish every public dollar — that is a hard Canadian dollar.**
+> **Force the world to hold CAD to buy Canadian resources, refuse to inflate away the currency, save windfalls, attract capital, raise productivity with analysis, and publish every public dollar — that is a hard Canadian dollar.**

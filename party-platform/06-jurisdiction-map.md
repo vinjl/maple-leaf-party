@@ -83,7 +83,7 @@ Logic parties die when they promise federal magic in provincial fields. Maple ta
 | **Metric** | 100% federal $ Trace within T+1; election audit completion |
 | **Risk** | Security exemptions abused; vendor resistance; crypto hype capture |
 
-### 3.5b AI State
+### 3.5b Published analysis
 
 | | |
 |--|--|

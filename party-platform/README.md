@@ -11,7 +11,7 @@
 | # | File | Content |
 |---|------|---------|
 | **20** | **[20-universal-decision-logic.md](20-universal-decision-logic.md)** | **How every decision is made — ultimate governance** |
-| 8 | [08-ai-state.md](08-ai-state.md) | Extreme compute + Human Council that runs UDL at scale |
+| 8 | [08-analysis-oversight.md](08-analysis-oversight.md) | Published analysis under named humans |
 | 0 | [00-first-principles.md](00-first-principles.md) | Non-negotiables |
 
 ### Core OS (00–09)
@@ -26,7 +26,7 @@
 | 5 | [05-open-state-architecture.md](05-open-state-architecture.md) | Every $ + process on ledger |
 | 6 | [06-jurisdiction-map.md](06-jurisdiction-map.md) | Federalism |
 | 7 | [07-currency-resources.md](07-currency-resources.md) | Hard CAD, CRPF |
-| 8 | [08-ai-state.md](08-ai-state.md) | AI on every function · **extreme national/provincial compute** · Human Council |
+| 8 | [08-analysis-oversight.md](08-analysis-oversight.md) | analysis of every function · **public analysis capacity** · named oversight |
 | 9 | [09-gov-as-open-source.md](09-gov-as-open-source.md) | OSS government culture |
 
 ### Nation & people (10–19)
@@ -47,6 +47,5 @@
 ### Ops
 
 - Mission: `../projects/party-foundation/mission.md`
-- **Launch playbook:** `../projects/party-foundation/launch-playbook.md`
 - Registration: `../projects/party-foundation/registration-research.md`
 - Repo map: `../STRUCTURE.md`

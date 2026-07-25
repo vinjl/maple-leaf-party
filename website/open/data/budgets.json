@@ -238,7 +238,7 @@
           ]
         },
         {
-          "label": "Extreme Compute Grid (national node demo)",
+          "label": "public analysis capacity (national node demo)",
           "amount": 2100000000,
           "trace_ids": [
             "T-DEMO-071"

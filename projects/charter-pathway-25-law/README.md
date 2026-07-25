@@ -4,7 +4,7 @@ Policy and legal design track for the Maple Leaf: restrictions on harmful substa
 
 ## Framing
 
-Child protection and public health first — not moral theatre. See also `ideas/frame-as-child-protection.md` and platform modules on food, health, and substances (`party-platform/11-food-health-nation.md`).
+Child protection and public health first — not moral theatre. See also `party-platform modules on food/health` and platform modules on food, health, and substances (`party-platform/11-food-health-nation.md`).
 
 ## Status
 

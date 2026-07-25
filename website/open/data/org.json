@@ -38,7 +38,7 @@
       "name": "Legislative",
       "kind": "branch",
       "parent": "root",
-      "mandate": "Parliament makes law in public. Bills require Decision Packages. The Public Chamber lets citizens chat, call in, and be summarized by AI during debate. For the people, by the people.",
+      "mandate": "Parliament makes law in public. Bills require Decision Packages. The Public Chamber lets citizens chat, call in, and be summarized by analysis during debate. For the people, by the people.",
       "github": "https://github.com/vinjl/maple-leaf-party/tree/main/government/legislative/",
       "children": [
         "house",
@@ -67,7 +67,7 @@
       "name": "Public Chamber",
       "kind": "chamber",
       "parent": "legislative",
-      "mandate": "Live citizen chat, call-in queue, and AI view-summary during public debate on any material act. For the people, by the people. Demo at #/chamber.",
+      "mandate": "Live citizen chat, call-in queue, and analysis view-summary during public debate on any material act. For the people, by the people. Demo at #/chamber.",
       "children": []
     },
     {
@@ -208,7 +208,7 @@
       "name": "Digital & Open State",
       "kind": "ministry",
       "parent": "executive",
-      "mandate": "Ledger, Trace, AI State, Extreme Compute Grid, Citizen Issues and waste bounties.",
+      "mandate": "Ledger, Trace, Published analysis, public analysis capacity, Citizen Issues and waste bounties.",
       "budget_id": "bud-digital",
       "github": "https://github.com/vinjl/maple-leaf-party/tree/main/government/executive/digital-open-state/",
       "platform": [

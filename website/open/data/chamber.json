@@ -49,12 +49,12 @@
         "share": "13%",
         "points": [
           "Citizens want this discussion always public, not lobby-only.",
-          "AI summary is useful if prompts and method stay visible.",
+          "analysis summary is useful if prompts and method stay visible.",
           "Call-in queue must be fair and identity-checked."
         ]
       }
     ],
-    "udl_note": "AI summary is input to Universal Decision Logic, not a vote count. Steelman and fiscal math still decide. Named humans still sign."
+    "udl_note": "analysis summary is input to Universal Decision Logic, not a vote count. Steelman and fiscal math still decide. Named humans still sign."
   },
   "messages": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "id": "m6",
-      "who": "AI chamber clerk",
+      "who": "analysis chamber clerk",
       "channel": "system",
       "text": "Cluster update: support cluster leads on nation-building; fiscal caution second. Full steelman queued for Decision Package."
     },

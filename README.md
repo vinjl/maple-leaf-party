@@ -1,55 +1,27 @@
 # The Maple Leaf Party of Canada
 
-**Love & Logic for Canada**
+**Logical love for Canada.** Citizens first. Open books. Extreme logic on every material decision.
 
-**Ultimate governance:** every material decision under [Universal Decision Logic](party-platform/20-universal-decision-logic.md) — extreme logic, full steelman, truth-seeking AI under a human council, **Canadian citizens first**.
-
-| Product | Path | Audience |
-|---------|------|----------|
-| **Public website** | [`website/`](website/) · [**Open Government Explorer**](website/open/) | Citizens — method, plan, interactive demo |
-| **Open government model** | [`government/`](government/) | Full branches & ministries as open source |
-| **Policy source** | [`party-platform/`](party-platform/) | **UDL headliner** + laws, tax, health, borders |
+| Content | Path |
+|---------|------|
+| **Public website** | [`website/`](website/) · [Open Government Explorer](website/open/) |
+| **Open government model** | [`government/`](government/) |
+| **Policy source** | [`party-platform/`](party-platform/) |
 
 > **Status:** Living draft. **Not** the legal Government of Canada. **Not yet** registered with Elections Canada.
 
-**Live site:** [www.mapleleafparty.ca](https://www.mapleleafparty.ca) · always-on Pages URL: [mapleleafparty.pages.dev](https://mapleleafparty.pages.dev)
-
----
-
-## Deploy (Cloudflare Pages)
-
-Only the public site is deployed. Policy depth stays on GitHub so deploys stay fast.
-
-| Setting | Value |
-|---------|--------|
-| Root directory | `website` |
-| Build command | *(empty)* |
-| Output directory | `/` |
-
-Details: [docs/DEPLOY.md](docs/DEPLOY.md)
+**Live site:** [www.mapleleafparty.ca](https://www.mapleleafparty.ca)
 
 ---
 
 ## Start here
 
-### Website (local)
+1. **How we decide** — [party-platform/20-universal-decision-logic.md](party-platform/20-universal-decision-logic.md)  
+2. **Open state** — [party-platform/05-open-state-architecture.md](party-platform/05-open-state-architecture.md)  
+3. **Citizen contract** — [party-platform/10-citizen-contract.md](party-platform/10-citizen-contract.md)  
+4. **Site** — open `website/` locally with any static server, or visit the live URL above  
 
-```bash
-cd website && python3 -m http.server 8080
-# http://localhost:8080/
-```
-
-### Open government (GitHub)
-
-Start at **[government/README.md](government/README.md)** — e.g. [Health](government/executive/health/), [Finance](government/executive/finance/), [Borders](government/executive/immigration-borders/), [Open State](government/open-state/).
-
-### Policy modules
-
-**[party-platform/README.md](party-platform/README.md)** — modules 00–19 (open state, tax, health, family, borders, projections, …).
-
-### Propose a change
-
-Pull requests and issues welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Propose changes via issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
@@ -57,29 +29,27 @@ Pull requests and issues welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ```
 maple-leaf-party/
-├── website/              # Cloudflare Pages only
-├── government/           # Open model of the state
-├── party-platform/       # Policy / law design (00–19)
-├── projects/             # Party launch & legal pathways
-│   ├── party-foundation/
-│   └── charter-pathway-25-law/
-├── legal/                # Legal research notes
-├── ideas/                # Captured framing ideas
-├── docs/DEPLOY.md
+├── website/           # Public static site
+├── government/        # Model of the state (ministries, branches)
+├── party-platform/    # Policy design and decision method
+├── projects/          # Registration research, pathways
+├── legal/             # Legal research notes
 ├── CONTRIBUTING.md
 └── LICENSE
 ```
+
+Hosting, DNS, email, and ops runbooks are **not** in this repository (private ops only).
 
 ---
 
 ## Contact
 
-- Public: [contact@mapleleafparty.ca](mailto:contact@mapleleafparty.ca)
-- Press: [press@mapleleafparty.ca](mailto:press@mapleleafparty.ca)
+- Public: [contact@mapleleafparty.ca](mailto:contact@mapleleafparty.ca)  
+- Press: [press@mapleleafparty.ca](mailto:press@mapleleafparty.ca)  
 
 ---
 
 ## License
 
 MIT — see [LICENSE](LICENSE).  
-Platform text is a design prototype, not legal or tax advice, and not formal party registration.
+Platform text is a design draft, not legal or tax advice, and not formal party registration.

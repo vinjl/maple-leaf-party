@@ -3,7 +3,7 @@
 **Version:** 0.6  
 **Status:** Framework draft — **flagship pillar**  
 **Depends on:** `00-first-principles.md`, `01-governing-doctrine.md`  
-**Pairs with:** `08-ai-state.md` · `09-gov-as-open-source.md`
+**Pairs with:** `08-analysis-oversight.md` · `09-gov-as-open-source.md`
 
 ---
 
@@ -103,7 +103,7 @@ Every federal entity maps 100% of its work into categories such as:
 | **Ordinary police admin** | Budgets, non-covert admin processes — open; covert joint intel → carve-out |
 | **Diplomacy & trade admin** | Visas abroad, trade remedy process clocks, consular case types |
 | **HR / public service** | Job posts, competitions, staffing, discipline workflows, classification |
-| **IT & digital** | System change tickets, outages, security patches, AI model deploys |
+| **IT & digital** | System change tickets, outages, security patches, analysis model deploys |
 | **Policy & legislation support** | Briefing chains, MOU drafting, bill costing packages |
 | **Communications** | Official campaigns (cost + authority on ledger) — not personal speech |
 | **ATIP / privacy ops** | Request clocks, extension reasons, release packages metadata |
@@ -139,7 +139,7 @@ Federal Open State is mandatory for federal entities. Provinces are invited to m
 | Decision rights | Who can approve; dual-control rules |
 | Appeal path | If rights/money affected |
 | KPI set | Quality, speed, error, cost |
-| AI assist status | None / assist / auto-decide (with rules) |
+| analysis assist status | None / assist / auto-decide (with rules) |
 | Sunset / review date | Kill or rejustify |
 | Ledger event schema | Which events must post |
 
@@ -149,7 +149,7 @@ No case file advances without emitting:
 
 `process_id + case_token + stage + timestamp + actor_role + (public|exempt)`
 
-Citizens (or applicants, privacy-tiered) see **where the file is** and **how long each stage has taken**. Managers and AI see bottlenecks in real time. The public sees aggregate queues and SLA breach rates for every process.
+Citizens (or applicants, privacy-tiered) see **where the file is** and **how long each stage has taken**. Managers and analysis see bottlenecks in real time. The public sees aggregate queues and SLA breach rates for every process.
 
 ### 3.3 Process debt purge
 
@@ -332,7 +332,7 @@ For each process that issues decisions:
 | Decision record | Outcome + authority + timestamp on ledger (privacy-tiered payload) |
 | Reasons | Adverse decisions require explainable reasons to the subject |
 | Rubrics | Scoring rubrics public when competitive (grants, procurement, jobs) |
-| Consistency | AI + audit flag outlier denials/approvals vs rubric |
+| Consistency | analysis + audit flag outlier denials/approvals vs rubric |
 | Appeals | Clock-bound; appeal process itself registered in MPR |
 
 ---
@@ -347,7 +347,7 @@ Parliament/Treasury Board sets default maximums where statute is silent, e.g.:
 - Procurement stage gates  
 - Staffing competitions  
 
-**Breach of SLA without lawful extension reason** → public red flag on process dashboard + managerial consequence path. AI State predicts breaches and auto-escalates.
+**Breach of SLA without lawful extension reason** → public red flag on process dashboard + managerial consequence path. Published analysis predicts breaches and auto-escalates.
 
 ---
 
@@ -361,7 +361,7 @@ Parliament/Treasury Board sets default maximums where statute is silent, e.g.:
 - Every department/process ships a public **README + CHANGELOG + CODEOWNERS**  
 - Public **issue tracker** for SLA breaches and waste  
 - Law/regs as versioned **diffs**; policy “pull requests” with comment windows  
-- Government AI systems: model cards, evals, binding policies public by default  
+- Government analysis systems: model cards, evals, binding policies public by default  
 - Lobby registry linked to bills, processes, Trace clusters  
 - Machine-readable statutes/regs with diffs  
 
@@ -442,11 +442,11 @@ These domains remain under **command authority + statute + independent cleared r
 
 ## 12b. Citizen Issues Platform (MCIP)
 
-See **`16-citizen-issues.md`**. Citizens file bugs, suggestions, and fraud against any registered process; public docket; maintainer SLAs; signature thresholds escalate to committee response or lawful referendum. AI State clusters duplicates; humans decide.
+See **`16-citizen-issues.md`**. Citizens file bugs, suggestions, and fraud against any registered process; public docket; maintainer SLAs; signature thresholds escalate to committee response or lawful referendum. Published analysis clusters duplicates; humans decide.
 
-## 13. Integration with AI State (`08-ai-state.md`)
+## 13. Integration with Published analysis (`08-analysis-oversight.md`)
 
-AI is not bolted onto three pet projects. **Every registered process** is an AI surface:
+analysis is not bolted onto three pet projects. **Every registered process** is an analysis surface:
 
 - Stage prediction and bottleneck kill  
 - Completeness checking  
@@ -454,7 +454,7 @@ AI is not bolted onto three pet projects. **Every registered process** is an AI 
 - Anomaly detection on money + process graphs  
 - Continuous process redesign proposals (human approves kills/merges)  
 
-If a process exists in MPR, AI State has a mandate to **measure it and improve it**.
+If a process exists in MPR, Published analysis has a mandate to **measure it and improve it**.
 
 ---
 
@@ -489,7 +489,7 @@ If a process exists in MPR, AI State has a mandate to **measure it and improve i
 2. **Government Process Registry Act** (every function, every workflow)  
 3. **Maple Ledger Act**  
 4. **Service Level and Decision Accountability Act**  
-5. **Government Software and AI Transparency Act**  
+5. **Government Software and analysis Transparency Act**  
 6. **Election Verification Act**  
 
 ---

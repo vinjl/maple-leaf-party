@@ -2,7 +2,7 @@
 
 **Version:** 0.2  
 **Status:** Framework draft — **flagship operating metaphor**  
-**Depends on:** `00-first-principles.md`, `05-open-state-architecture.md`, `08-ai-state.md`  
+**Depends on:** `00-first-principles.md`, `05-open-state-architecture.md`, `08-analysis-oversight.md`  
 **Carve-outs:** Military operations and secret police/intelligence operations remain classified (same closed list as Open State). Everything else: **open source standards**.
 
 ---
@@ -57,7 +57,7 @@ This is not “governance by Twitter poll” and not “DAO replaces Parliament.
 | Pull requests | Public change proposals for regs/policy/process (with debate window) |
 | Code review | Dual control + public rubric for material spend and rule changes |
 | Issues / bug tracker | **MCIP** (`16-citizen-issues.md`) — bugs, suggestions, public fraud docket, signature ladder to referendum |
-| CI / tests | Automated KPI checks; process fails CI → public red; AI State as continuous integration |
+| CI / tests | Automated KPI checks; process fails CI → public red; Published analysis as continuous integration |
 | Releases | Versioned statutes, process SOPs, software; changelogs mandatory |
 | Semantic versioning | Breaking changes to benefits/rules clearly flagged |
 | CONTRIBUTING.md | How citizens, firms, researchers file issues and propose fixes lawfully |
@@ -90,7 +90,7 @@ This is not “governance by Twitter poll” and not “DAO replaces Parliament.
 | Paid custom software contracts | Source escrow + public release as contract term |
 | Process definitions / SOPs (non-exempt) | Public, versioned |
 | Schemas, APIs, data dictionaries | Public |
-| AI model cards, eval harnesses, binding policies | Public for civilian systems |
+| analysis model cards, eval harnesses, binding policies | Public for civilian systems |
 | Documents / reports | Public; content-addressed hashes on ledger |
 | Procurement specs | Public |
 
@@ -132,7 +132,7 @@ Open source projects die under bloat. So does government.
 | One way to do it | Dedupe overlapping programs publicly |
 | Measure LOC of law | Prefer short clear statutes; publish complexity metrics |
 | Admin ratio | Publish admin cost per case; target continuous decline |
-| AI bias to shrink | AI State success = fewer layers, not more dashboards (`08`) |
+| analysis bias to shrink | Published analysis success = fewer layers, not more dashboards (`08`) |
 
 ### 3.5 Integrity (max)
 
@@ -200,7 +200,7 @@ Emergency changes allowed with **automatic expiry** and retroactive public PR.
 - Tagged releases  
 - Changelog  
 - Rollback plan  
-- Eval scores for AI systems  
+- Eval scores for analysis systems  
 
 ### 5.3 Deprecation
 
@@ -263,7 +263,7 @@ Parliament and responsible government remain the **merge authority** for law. Op
 | Role | Duty |
 |------|------|
 | Chief Open State Officer | Ledger + MPR + public portals |
-| Chief AI Officer | AI on every non-exempt process |
+| Chief analysis Officer | analysis on every non-exempt process |
 | Chief Software Freedom Officer (or under Open State) | OSS default, SBOM, bounties |
 | Process CODEOWNERS | Named human per process |
 | Independent integrity board | Witness ledger; abuse of carve-outs |
@@ -273,7 +273,7 @@ Parliament and responsible government remain the **merge authority** for law. Op
 ## 10. Legislative skeleton
 
 1. **Government as Open Source Act** (default open license + repo duties)  
-2. Tie-ins already planned: Open State, Process Registry, Maple Ledger, AI State, Software Freedom  
+2. Tie-ins already planned: Open State, Process Registry, Maple Ledger, Published analysis, Software Freedom  
 3. **Vulnerability Disclosure and Bug Bounty Act** (civilian systems)  
 4. **Public Changelog and Regulatory Diff Act**  
 
@@ -284,7 +284,7 @@ Parliament and responsible government remain the **merge authority** for law. Op
 | Pillar | Link |
 |--------|------|
 | `05` Open State | Ledger + MPR = the “repo and history” |
-| `08` AI State | CI/CD + automated review for the whole process graph |
+| `08` Published analysis | CI/CD + automated review for the whole process graph |
 | `07` Hard CAD | Trust premium: open, lean, hard-money country |
 | `03` Capital magnet | Global capital prefers high-integrity, inspectable jurisdictions |
 | Health / tax / etc. | Each program ships as a versioned, measured module |

@@ -10,7 +10,7 @@
 
 The Maple Leaf exists to govern Canada by **maximum logic in the national interest**: the durable welfare, security, prosperity, and self-determination of **Canadian citizens**, under evidence, incentives, and the constraints of reality.
 
-**Headliner:** [Universal Decision Logic](20-universal-decision-logic.md) — ultimate governance. Every material decision is made and tested the same way: extreme logic, full steelman (all spectrum extremes + history), replicable data, world-leading truth-seeking AI under a human council, **citizens first**.
+**Headliner:** [Universal Decision Logic](20-universal-decision-logic.md) — ultimate governance. Every material decision is made and tested the same way: extreme logic, full steelman (all spectrum extremes + history), replicable data, world-leading published analysis under named humans, **citizens first**.
 
 We are not a culture-war cosplay party, a corporate lobby vehicle, or a global charity with a flag. We are a **fiduciary of the citizen body**.
 
@@ -33,8 +33,8 @@ We are not a culture-war cosplay party, a corporate lobby vehicle, or a global c
 1. **Citizens first.** State power is exercised for Canadians who fund and are bound by Canadian law. Foreign interests, temporary entrants, and abstract “global community” claims rank below citizens.
 2. **Evidence over fashion.** Policy follows data, history, and incentive design — not donor memes, academic fads, or media pile-ons.
 3. **Government as open source — 100% non-exempt.** Treat the state like an open source project: **transparent, open source, secure, lean, integrity-max.** Every non-exempt **outflow dollar** — including **all government benefits** — is ledger-traced and publicly auditable (**anonymized** for individual recipients; never dark). Every non-exempt process is versioned and inspectable; citizens file **bugs/fraud** on a public tracker (MCIP). **Only carve-outs:** military operations and secret police/intelligence operations.
-4. **AI-maximized state — every non-exempt function.** World-class national and provincial extreme compute; AI watches the state for waste and abuse; **Human Council** over the machines; no social-credit panopticon.  
-4d. **Universal Decision Logic.** Every material decision survives extreme, ideology-blind logic: citizen outcome, steelman for/against, replicable data, foreign-interest tests (`20`).
+4. **Logic-maximized, auditable state.** Named humans stay accountable. Published analysis may help hunt waste; no social-credit panopticon; machines do not govern.  
+4d. **Universal Decision Logic.** Every material decision survives extreme, ideology-blind logic: citizen outcome, strongest case for/against, checkable evidence, foreign-interest tests (`20`).
 4b. **Free speech.** Criminal speech law covers **explicit violence calls/threats only** — not subjective hate or hurt feelings.
 4c. **Nation of owners.** Maple Seed→Tree (RESP overhaul): deductible in, tax-free growth and out; Canada-first corporate tax when profits stay and pay Canadians.
 5. **Hard Canadian dollar.** Minimal inflation; fiscal steel; major resources settled in **CAD** so the world must hold our currency; resource wealth saved, not binged.
@@ -78,7 +78,7 @@ Every bill, program, regulation, and party policy must pass the short tests belo
 | 10 | **Constitutional realism** — winable design? | Least-impairing rewrite |
 | 11 | **Capital & talent retention** — makes Canada beat the US on keep-rate? | Fix tax/regulatory stack |
 
-AI State on the Maple Extreme Compute Grid runs these tests at scale; the **Human Council of Logic & Integrity** and named officials remain accountable (`08`).
+Published analysis tools may stress-test claims at scale; named officials remain accountable (`08`).
 
 ---
 
@@ -123,4 +123,4 @@ No silent vibe-shifts.
 
 ## 10. One-sentence constitution of purpose
 
-> **The Maple Leaf shall make Canada the most logical place on Earth for citizens to live free, keep what they earn, raise children, bank capital under hard law, and run government as an open source project — transparent, open source, secure, lean, integrity-max — verifying every non-exempt dollar and process on a public ledger (only military ops and secret police ops carved out), with world-leading AI under human accountability, and a hard dollar the world needs to buy Canadian resources — loyal to Canadians first, last, and always.**
+> **The Maple Leaf shall make Canada the most logical place on Earth for citizens to live free, keep what they earn, raise children, bank capital under hard law, and run government as an open source project — transparent, open source, secure, lean, integrity-max — verifying every non-exempt dollar and process on a public ledger (only military ops and secret police ops carved out), with published analysis under human accountability, and a hard dollar the world needs to buy Canadian resources — loyal to Canadians first, last, and always.**

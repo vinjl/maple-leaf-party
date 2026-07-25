@@ -348,7 +348,7 @@
           orgId === "public-chamber" || orgId === "house" || orgId === "senate" || orgId === "legislative"
             ? `<div class="drawer-block">
           <h3>Public Chamber</h3>
-          <p class="open-note">Live citizen chat, call-in, and AI view-summary during debate.</p>
+          <p class="open-note">Live citizen chat, call-in, and analysis view-summary during debate.</p>
           <p><a class="action" href="#/chamber">Enter Public Chamber →</a></p>
         </div>`
             : ""
@@ -390,7 +390,7 @@
         <h1>Public Chamber</h1>
         <p class="open-lead">
           While Parliament debates anything material, citizens are in the room.
-          Live chat, call-in queue, AI clustering of views, then Universal Decision Logic still decides.
+          Live chat, call-in queue, analysis clustering of views, then Universal Decision Logic still decides.
         </p>
         <p class="open-note">${esc(c.meta.disclaimer)}</p>
       </header>
@@ -433,7 +433,7 @@
 
         <aside class="chamber-side">
           <div class="open-panel open-panel-ai">
-            <h2>AI view summary <span class="open-demo-tag">browser demo</span></h2>
+            <h2>session summary <span class="open-demo-tag">browser demo</span></h2>
             <p class="open-note">${esc(c.ai_summary.udl_note)}</p>
             ${c.ai_summary.clusters
               .map(
@@ -452,7 +452,7 @@
             <ul class="plain">
               <li><strong>Chat</strong> during public debate on any material act.</li>
               <li><strong>Call-in</strong> fair queue, recorded and transcribed.</li>
-              <li><strong>AI</strong> clusters views; prompts and method stay public; not a vote count.</li>
+              <li><strong>analysis</strong> clusters views; prompts and method stay public; not a vote count.</li>
               <li><strong>Logic and math</strong> still gate the Decision Package. Named humans still sign.</li>
             </ul>
             <p class="home-cta-line">
@@ -556,7 +556,7 @@
         </dl>
       </section>
       <section class="open-panel open-panel-ai">
-        <h2>AI analysis <span class="open-demo-tag">demo analysis · not live policy</span></h2>
+        <h2>published analysis <span class="open-demo-tag">demo · not live policy</span></h2>
         <p class="open-note">Model: ${esc(d.ai.model)}</p>
         <h3 class="open-sub">Prompt (logged)</h3>
         <pre class="open-pre">${esc(d.ai.prompt)}</pre>
@@ -564,7 +564,7 @@
         <pre class="open-pre open-pre-analysis">${esc(d.ai.analysis)}</pre>
       </section>
       <section class="open-panel">
-        <h2>Human Council</h2>
+        <h2>named oversight</h2>
         <p>${esc(d.council)}</p>
       </section>
       <section class="open-panel">

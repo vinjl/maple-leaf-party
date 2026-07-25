@@ -17,11 +17,11 @@
         "history": "Prior baby bonuses without dual-parent zero and without waste cuts failed the ledger. This pairs tax power with Open State savings."
       },
       "ai": {
-        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "model": "Demo analysis package (sample data)",
         "prompt": "Run Universal Decision Logic on: federal zero personal income tax for BOTH parents when three dependent children and married/common-law together. Steelman for and against from all spectrum extremes. Use only citizen outcomes, fiscal arithmetic, and history of family transfers. No political branding. Flag foreign interest. Recommend adopt/pilot/reject.",
         "analysis": "VALID STRUCTURE: If nation needs more stable multi-child households and current PIT burdens dual earners with kids, then reducing PIT at a clear threshold is a coherent tool.\n\nFOR: Simplicity beats opaque credit mazes; dual-parent zero is the distinctive load-bearing rule; aligns incentives with long-run citizen stock.\n\nAGAINST: Score the gross fiscal hole against PIT base (~public $238B-class personal take — order of magnitude). Without concurrent waste destruction and health redesign, debt rises — fails hard-dollar non-negotiable.\n\nDATA: Fertility elasticities to tax are real but not infinite; treat as B-grade. Require annual published cost and uptake.\n\nFOREIGN: None material.\n\nRECOMMEND: ADOPT only sequenced after Open State waste path is live; sunset review at year 5 if uptake and solvency miss KPI."
       },
-      "council": "Human Council: approve with mandatory fiscal sequence (ledger savings path visible). Dissent noted on cliff effects at child 2→3.",
+      "council": "named oversight: approve with mandatory fiscal sequence (ledger savings path visible). Dissent noted on cliff effects at child 2→3.",
       "outcome": "Adopted. Systems change under Trace T-DEMO-031. Public scoreboard required annually."
     },
     {
@@ -41,7 +41,7 @@
         "history": "Countries with service traditions show cohesion gains when training is serious and not politicized theatre. Poorly run camps fail — publish kill criteria."
       },
       "ai": {
-        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "model": "Demo analysis package (sample data)",
         "prompt": "UDL on replacing grade 10 with mandatory military-style national service (no combat deployment), mostly sex-separated training, then grade 11–12. Steelman all spectrum extremes. Include boy/girl developmental differences only where evidence supports training design. Charter risk flag. Adopt/pilot/reject.",
         "analysis": "LOGIC: If (a) habit formation peaks mid-teens and (b) classroom-only environments produce preventable failure modes and (c) later remediation is costlier, then a structured service year before grade 11–12 is a rational intervention — provided academics resume and abuse controls are real.\n\nSEX SEPARATION: Training design to reduce distraction is not a moral essay; it is an efficiency claim. Mixed modules can remain for shared skills if evidence supports.\n\nAGAINST: Rights litigation, cost, cadre quality. Without rigorous instructor standards this becomes trauma factory or summer camp — both fail UDL.\n\nRECOMMEND: ADOPT in law with phased stand-up, public UDL, independent inspectorate, medical alternatives, and automatic review. Pilot metrics before full cohort size if counsel requires."
       },
@@ -65,7 +65,7 @@
         "history": "Prohibition of popular substances without harm ranking produces black markets. Age gates must be enforced to mean anything."
       },
       "ai": {
-        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "model": "Demo analysis package (sample data)",
         "prompt": "Compare alcohol, nicotine (smoked vs smokeless), cannabis, psilocybin, LSD, MDMA, ketamine on dependence, overdose, violence, and developing-brain risk. Propose age tiers for Canada under citizens-first UDL. No moral fashion. Cite uncertainty. Recommend legal architecture: ban vs regulate.",
         "analysis": "HARM ORDER (population): alcohol and smoked nicotine dominate death and social cost. Psilocybin dependence/OD risk is far lower; therapeutic signal exists in depression/addiction/end-of-life distress under controlled use — still not a toy.\n\nTIERING: 25 for high social-cost recreational intoxicants (alcohol, smoked nicotine, cannabis, LSD/MDMA/ketamine). 21 for psilocybin and smokeless tobacco with ad bans and purity.\n\nHYPocrisy TEST: Keeping alcohol at 18/19 while banning lower-harm psychedelics fails non-contradiction.\n\nRECOMMEND: ADOPT tiers + purity labs + no youth ads + impaired driving enforcement. Publish evidence grades annually; strip marketing claims that exceed data."
       },
@@ -89,7 +89,7 @@
         "history": "Ad bans and age gates without commercial ban leave the industry intact. Pair with gambling ad ban."
       },
       "ai": {
-        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "model": "Demo analysis package (sample data)",
         "prompt": "UDL on commercial/public porn ban with private non-commercial adult exception. Steelman free-speech maximalism vs child-protection and social-cost arguments. Enforcement options. Charter-aware least-impairing design.",
         "analysis": "SPEECH: Commercial scale and algorithmic push differ from private adult acts. A ban aimed at industry and public distribution is narrower than banning private thought.\n\nCHILD PROTECTION: Default phone access makes 'parental responsibility only' insufficient as sole tool.\n\nENFORCEMENT: Payment rails, hosting, and age-gate liability beat street vice squads.\n\nRISK: Overbreadth and selective enforcement. Definitions must be precise.\n\nRECOMMEND: ADOPT commercial/public ban; private non-commercial adult carve-out; harden NCII; independent oversight of enforcement. Charter memo public in summary."
       },
@@ -113,7 +113,7 @@
         "history": "Tobacco-style ad limits worked on glamour; food is next largest preventable load."
       },
       "ai": {
-        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "model": "Demo analysis package (sample data)",
         "prompt": "UDL on UPF/unhealthy food advertising ban plus full ingredient/process disclosure and tax favour for whole food. Steelman industry and liberty objections. Least-impairing design.",
         "analysis": "ADS ≠ PRODUCT BAN: Leaving products on shelves while ending mass persuasion is coherent and less impairing than prohibition.\n\nDEFINITIONS: Must be objective (processing class, nutrient thresholds) to survive lobbying fog.\n\nRECOMMEND: ADOPT ad ban + disclosure + tax skew; publish definition schedule; enforce digital and youth channels first."
       },
@@ -137,7 +137,7 @@
         "history": "Rapid population via temporary streams without housing failed service levels."
       },
       "ai": {
-        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "model": "Demo analysis package (sample data)",
         "prompt": "UDL on Canadian immigration levels under housing/hospital/wage constraints. Include security screens for conflict-origin cohorts with documented violence risk. No fashion language. Recommend rules.",
         "analysis": "CAPACITY is a hard constraint: if housing completions and hospital seats do not rise, intake must fall — identity of applicants does not repeal arithmetic.\n\nSECURITY: Origin conflict + hostile doctrine patterns raise expected risk; screening and caps are rational, not theatre.\n\nRECOMMEND: ADOPT formula-tied levels, skill preference, fast removals for violent non-citizens, public capacity dashboard."
       },
@@ -161,7 +161,7 @@
         "history": "Same program class failed two evaluation cycles."
       },
       "ai": {
-        "model": "Frontier multi-vendor ensemble (demo — uncensored analysis mode)",
+        "model": "Demo analysis package (sample data)",
         "prompt": "UDL on renewing a multi-year management consulting program after two cycles with flat KPIs and full Trace history. Recommend adopt/reject. No concern for ministerial face-saving.",
         "analysis": "IF prior $ did not move KPI and mechanism is unchanged, THEN expected value of renewal ≈ 0 under rational policy.\n\nFace-saving is not a citizen outcome.\n\nRECOMMEND: REJECT. Publish kill. Open waste bounty if citizens surface related shells."
       },

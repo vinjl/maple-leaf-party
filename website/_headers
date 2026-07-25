@@ -1,5 +1,4 @@
-# Cloudflare Pages headers — security baseline for static site
-# https://developers.cloudflare.com/pages/configuration/headers/
+# Security headers for the static host
 
 /*
   X-Frame-Options: DENY

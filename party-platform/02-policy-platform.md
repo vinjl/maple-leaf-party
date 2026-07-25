@@ -4,7 +4,7 @@
 **Status:** Framework draft  
 **Doctrine:** Logic-based civic nationalism · Citizens first · Government as open source  
 **People-facing:** [10-citizen-contract.md](10-citizen-contract.md)  
-**Launch:** `../projects/party-foundation/launch-playbook.md`
+**Registration notes:** `../projects/party-foundation/registration-research.md`
 
 ---
 
@@ -27,7 +27,7 @@ The Maple Leaf governs for **Canadian citizens first**: open-source government, 
 | **D Immigration** | Capacity formula; high skill; not CSRCP mass migration | `02` body prior |
 | **E Trade** | US reciprocal free trade; **100% internal free trade** | `11` §9 |
 | **F Open State** | Every $ + process; benefits anonymized-public | `05`, `09` |
-| **F2 AI State** | Extreme national + provincial compute; AI audits whole government; Human Council | `08` |
+| **F2 Published analysis** | Extreme national + provincial compute; audits of whole government (published methods); named oversight | `08` |
 | **F2b Universal Decision Logic** | Bulletproof logic for every material decision; ideology-blind; replicable data | `20`, `00` |
 | **F3 Citizen Issues** | Bug tracker, fraud docket, signature→referendum | `16` |
 | **G Security** | Borders, crime, defence seriousness | — |
@@ -53,4 +53,4 @@ The Maple Leaf governs for **Canadian citizens first**: open-source government, 
 
 ## One-line platform
 
-> **Citizens first; government as open source with a public bug tracker; extreme logic on every decision; AI on sovereign supercomputers under a human council; free speech except violence; Seed to Tree capital; lifestyle before pills; hard CAD; Canada-first corporate tax.**
+> **Citizens first; government as open source with a public bug tracker; extreme logic on every decision; published analysis under named humans; free speech except violence; Seed to Tree capital; lifestyle before pills; hard CAD; Canada-first corporate tax.**

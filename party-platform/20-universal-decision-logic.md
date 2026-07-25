@@ -2,10 +2,10 @@
 
 **Version:** 1.1  
 **Status:** **HEADLINER** — ultimate governance method  
-**Depends on:** `00-first-principles.md`, `01-governing-doctrine.md`, `05-open-state-architecture.md`, `08-ai-state.md`  
+**Depends on:** `00-first-principles.md`, `01-governing-doctrine.md`, `05-open-state-architecture.md`, `08-analysis-oversight.md`  
 **Public face:** `website/plan/#logic` · `website/` hero  
 
-**Purpose:** This is **how every material government decision is made and tested** — not a side paper. Ultimate governance: extreme logic, full steelman of every decision type, all political-spectrum extremes and history in the room, world-leading truth-seeking AI for deep analysis, human council over the machines, citizens first.
+**Purpose:** This is **how every material government decision is made and tested** — not a side paper. Ultimate governance: extreme logic, full steelman of every decision type, all political-spectrum extremes and history in the room, world-leading published analysis for deep analysis, human council over the machines, citizens first.
 
 ---
 
@@ -19,8 +19,8 @@ The Maple Leaf’s **headliner** is not a single program. It is the **method of 
 
 1. **Universal Decision Logic (UDL)** — the same extreme, ideology-blind battery on **every** bill, regulation, program, hire, grant, procurement, border rule, and major executive act  
 2. **Full auditability** of money and process (Open State) so the method can be re-checked  
-3. **World-leading AI** on the Maple Extreme Compute Grid — unrestricted by fashion filters; truth-seeking deep analysis of all key decisions (`08`)  
-4. **Human Council of Logic & Integrity** — machines propose and detect; humans dispose and answer  
+3. **Published analysis** on the public analysis capacity — unrestricted by fashion filters; truth-seeking deep analysis of all key decisions (`08`)  
+4. **named human oversight** — machines propose and detect; humans dispose and answer  
 
 > **A decision that cannot survive UDL is not ready to spend citizen blood, time, or money.**  
 > **This is how the state thinks — every time.**
@@ -29,9 +29,9 @@ The Maple Leaf’s **headliner** is not a single program. It is the **method of 
 
 Every decision type is stress-tested with the **strongest case for** and the **strongest case against**, drawn without favour from **every end of the political spectrum**, and from **history**: what was tried, what failed, what repeated, who paid. No one-side theatre. No banned questions. No sacred cows.
 
-### AI that seeks truth
+### analysis that seeks truth
 
-Key decisions receive deep analysis from **frontier, multi-vendor AI** on national and provincial extreme supercomputers — analysis **uncensored by political fashion**: no filter that hides risk, doctrine, fiscal failure, or foreign interest to protect a narrative. “Uncensored” means **truth-seeking**, not lawless. Criminal law, privacy of private persons, and classified carve-outs still bind. Social-credit speech scoring is banned.
+Key decisions receive deep analysis from **published multi-source analysis** on published analysis tools — analysis **uncensored by political fashion**: no filter that hides risk, doctrine, fiscal failure, or foreign interest to protect a narrative. “Uncensored” means **truth-seeking**, not lawless. Criminal law, privacy of private persons, and classified carve-outs still bind. Social-credit speech scoring is banned.
 
 ---
 
@@ -173,7 +173,7 @@ Foreign gain is not always fatal — **hidden** foreign gain without citizen gai
 | **Defer** | Missing essential data; no emergency |
 
 Publish the UDL Record (redact only lawful security carve-outs).  
-AI may draft; **named humans** sign.
+analysis may draft; **named humans** sign.
 
 ---
 
@@ -244,8 +244,8 @@ Concrete statutes remain for counsel and Parliament; UDL forces the **argument**
 | Actor | Role |
 |-------|------|
 | **Proposing ministry** | Draft UDL Record |
-| **AI State on Maple Compute** | Stress-test logic, mine ledger history, flag foreign/data risks at scale |
-| **Human Council of Logic & Integrity** | Challenge AI + ministry; veto reckless automation (`08`) |
+| **Published analysis on Maple Compute** | Stress-test logic, mine ledger history, flag foreign/data risks at scale |
+| **named human oversight** | Challenge analysis + ministry; veto reckless automation (`08`) |
 | **Named minister / deputy** | Legal accountability |
 | **Public** | Read full **Decision Packages** (below); file bugs / claim waste bounties (`16`) |
 | **Parliament** | Final law; cannot skip UDL for material bills under Maple rules |
@@ -257,9 +257,9 @@ For each material decision, the open government record includes:
 1. **Outcome** — adopted / rejected / pilot  
 2. **Official reasons** — signed by the responsible minister or official  
 3. **UDL record** — citizen test, steelman for/against, data grades, foreign-interest checks  
-4. **AI analysis** — truth-seeking, **uncensored by political fashion** (facts, logic, history; not feelings pandering)  
-5. **Prompts** — what was asked of the AI for key runs  
-6. **Human Council** note / dissent  
+4. **Published analysis** — truth-seeking, **uncensored by political fashion** (facts, logic, history; not feelings pandering)  
+5. **Prompts** — what was asked of the analysis for key runs  
+6. **named oversight** note / dissent  
 7. **Trace links** — where money moves  
 
 Demo of this package: public site **Open Government Explorer** (`website/open/`).
@@ -268,7 +268,7 @@ Demo of this package: public site **Open Government Explorer** (`website/open/`)
 
 ## 10. Tie-in to tax and lean government
 
-UDL + Open State + AI audit → **continuous destruction of waste**.
+UDL + Open State + analysis audit → **continuous destruction of waste**.
 
 Saved dollars are not a second bureaucracy. They:
 
@@ -286,7 +286,7 @@ Leaner, fitter, stronger government is a **logical consequence** of bulletproof 
 2. Tie-in to Maple Ledger / Process Registry  
 3. **Automated Decision Accountability** (with `08`)  
 4. Evidence-grade standards for permanent programs  
-5. Human Council statute  
+5. named oversight statute  
 
 ---
 

@@ -105,9 +105,9 @@
     },
     {
       "id": "T-DEMO-071",
-      "title": "Extreme Compute Grid node (demo)",
+      "title": "public analysis capacity node (demo)",
       "steps": [
-        { "stage": "Appropriation", "detail": "National AI audit compute." },
+        { "stage": "Appropriation", "detail": "National analysis audit compute." },
         { "stage": "Partners", "detail": "Multi-vendor under Canadian control." },
         { "stage": "Payment", "detail": "Capex/opex Trace." }
       ]

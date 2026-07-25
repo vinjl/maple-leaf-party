@@ -38,6 +38,8 @@ npm-debug.log*
 tmp/
 notes/
 academic/
+private/
+docs/private/
 AGENTS.md
 HANDOFF.md
 STATUS.md
@@ -45,3 +47,14 @@ PROMPTS.md
 CONTEXT.md
 DECISIONS.md
 PLAN.md
+
+# Strategy / ops that must not be public (message order, framing, infra IDs)
+ideas/
+**/launch-playbook.md
+**/*-private.md
+*.local.md
+
+# Private monorepo ops copy (if present)
+private/
+../04-Maple-Leaf-Party-ops/
+

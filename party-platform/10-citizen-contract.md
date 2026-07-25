@@ -58,7 +58,7 @@ Canada is run for **citizens first**. Government is an **open source project**: 
 
 ### 2.5 Kids and future
 
-- Subsidized **AI tools** under 18 and for post-secondary students  
+- Subsidized **analysis tools** under 18 and for post-secondary students  
 - Homeschool respected; **gifted path** via monitored ability tests  
 - National Service Year **replaces grade 10** (training, not combat deployment); mostly sex-separated streams; grade 11–12 after  
 - Substance ages by harm: **25** alcohol, smoked nicotine, cannabis, LSD/MDMA/ketamine (pure); **21** psilocybin, smokeless tobacco, coca **leaf** (not cocaine)  
@@ -101,7 +101,7 @@ Canada is run for **citizens first**. Government is an **open source project**: 
 |-------------|----------------|
 | **Worker** | Higher take-home; invest deductibly; open books |
 | **Parent** | Child tax power; Seed/Tree; safer food; fit standards; fewer pills-first for kids |
-| **Student** | AI access; gifted path; clear rules; service year builds adults |
+| **Student** | analysis access; gifted path; clear rules; service year builds adults |
 | **Builder** | Capital magnet; low CT if Canadian; hard dollar |
 
 ---

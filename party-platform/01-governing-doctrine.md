@@ -18,9 +18,9 @@ Ministries are not moral fashion houses. They are **operators** with budgets, ou
 | **Lean** | Delete dead programs/processes; small surface area |
 | **Integrity max** | Immutable history, named maintainers, dual control, reproducible totals |
 
-Detail: `09-gov-as-open-source.md` · ledger/process: `05-open-state-architecture.md` · AI + extreme compute + Human Council: `08-ai-state.md` · decision method: `20-universal-decision-logic.md`
+Detail: `09-gov-as-open-source.md` · ledger/process: `05-open-state-architecture.md` · published analysis under named humans: `08-analysis-oversight.md` · decision method: `20-universal-decision-logic.md`
 
-Clear mission, **every non-exempt dollar on the Maple Ledger**, **every non-exempt process in the MPR**, **AI State efficiency**, competitive procurement, no permanent programs without permanent proof.
+Clear mission, **every non-exempt dollar on the Maple Ledger**, **every non-exempt process in the MPR**, **Published analysis efficiency**, competitive procurement, no permanent programs without permanent proof.
 
 ---
 
@@ -34,7 +34,7 @@ Clear mission, **every non-exempt dollar on the Maple Ledger**, **every non-exem
 - Critical infrastructure and export corridors  
 - Catastrophic **citizen** health insurance (see Health Covenant)  
 - Disaster and pandemic surge capacity  
-- Strategic science, dual-use tech, and **Maple Extreme Compute Grid** (national + provincial world-class AI) where markets under-provide integrity capacity  
+- Strategic science, dual-use tech, and **public analysis capacity** (national + provincial world-class analysis) where markets under-provide integrity capacity  
 - Permitting systems that decide **yes/no fast** (AI-assisted)  
 - **Open State infrastructure** (Maple Ledger) as core state capacity  
 - **Hard CAD / resource settlement rails** as strategic economic capacity
@@ -119,7 +119,7 @@ No new federal program without all of:
 - **Live stage events** on Maple Ledger for every case (privacy-tiered)  
 - Unregistered processes / off-ledger non-exempt payments illegal after transition  
 - Contracts, bids, lobby registry, beneficial ownership of payees  
-- Government software **and AI systems** open/auditable by default  
+- Government software **and analysis systems** open/auditable by default  
 - Machine-readable statutes and regs  
 
 **Only full carve-outs from public 100%:** **military operations** and **secret police / security-intelligence operations**. Everything else is fully open. Personal privacy protects case *payloads*, not whole ministries. Misuse of carve-outs is an offence.
@@ -128,9 +128,9 @@ No new federal program without all of:
 
 ---
 
-## 7b. AI State doctrine (summary — detail in `08-ai-state.md`)
+## 7b. Published analysis doctrine (summary — detail in `08-analysis-oversight.md`)
 
-- World-leading AI on **every registered process** — not three pilot chatbots  
+- Published analysis on **every registered process** — not three pilot chatbots  
 - Observe, speed, quality-check, anomaly-detect, propose kill/merge of bureaucracy  
 - Human-named accountability for every automated decision class  
 - No social-credit political scoring  
@@ -219,4 +219,4 @@ The Maple Leaf party apparatus obeys the same OS:
 
 ## 15. One-line doctrine
 
-> **Run the state like an open source project — transparent, open source, secure, lean, integrity-max; put every non-exempt dollar and process on the public ledger; AI on every non-exempt function under human accountability; carve out only military ops and secret intel; buy best value; insure true catastrophes for citizens who keep the covenant; hard CAD; capital prefers Canada.**
+> **Run the state like an open source project — transparent, open source, secure, lean, integrity-max; put every non-exempt dollar and process on the public ledger; analysis on every non-exempt function under human accountability; carve out only military ops and secret intel; buy best value; insure true catastrophes for citizens who keep the covenant; hard CAD; capital prefers Canada.**
